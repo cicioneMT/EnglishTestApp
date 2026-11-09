@@ -170,6 +170,48 @@ form .btn-principal { width: 100%; margin-top: 6px; }
 .rez-expl { margin: 8px 0 0; font-size: .9rem; color: var(--gri); }
 .rez-img { display: block; width: 100%; max-width: 360px; border: 1px solid var(--linie); border-radius: 8px; margin: 4px 0 8px; }
 
+/* ---------- Alegerea modului ---------- */
+.btn-verde { background: var(--corect); color: #fff; }
+.btn-verde:hover:not(:disabled) { background: #156a3c; }
+.card-titlu { padding-bottom: 18px; }
+.card-titlu .subtitlu { margin: 0; }
+.grila-moduri { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 4px; }
+.card-mod { display: flex; flex-direction: column; margin-bottom: 0; border-top: 5px solid var(--navy); }
+.card-mod.mod-invatare { border-top-color: var(--corect); }
+.card-mod .reguli { flex: 1; font-size: .93rem; }
+.card-mod .btn { width: 100%; }
+.mod-eticheta {
+  align-self: flex-start; font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em;
+  padding: 3px 10px; border-radius: 999px; background: #eef1f5; color: var(--navy); margin-bottom: 10px;
+}
+.mod-invatare .mod-eticheta { background: var(--corect-bg); color: var(--corect); }
+
+/* ---------- Modul Învățare ---------- */
+.scor-mic { font-weight: 700; color: var(--corect); background: var(--corect-bg); padding: 4px 12px; border-radius: 999px; font-size: .95rem; }
+.scor-mic:empty { display: none; }
+.bara-invatare { height: 100%; width: 0; background: var(--corect); transition: width .3s; }
+.runda { margin: 12px 0 0; font-size: .88rem; font-weight: 700; color: var(--galben); }
+#ecran-invatare .bara-timp { margin-bottom: 22px; }
+.variante.blocat .varianta { cursor: default; }
+.variante.blocat .varianta:hover { border-color: var(--linie); background: #fcfbf8; }
+.varianta.corecta, .variante.blocat .varianta.corecta:hover { border-color: var(--corect); background: var(--corect-bg); box-shadow: 0 0 0 1px var(--corect) inset; }
+.varianta.corecta .litera { background: var(--corect); color: #fff; }
+.varianta.gresita, .variante.blocat .varianta.gresita:hover { border-color: var(--gresit); background: var(--gresit-bg); box-shadow: 0 0 0 1px var(--gresit) inset; }
+.varianta.gresita .litera { background: var(--gresit); color: #fff; }
+.varianta.estompat { opacity: .5; }
+.feedback { margin-top: 18px; padding: 16px 18px; border-radius: 12px; border-left: 5px solid; }
+.feedback.corect { background: var(--corect-bg); border-color: var(--corect); }
+.feedback.gresit { background: var(--gresit-bg); border-color: var(--gresit); }
+.feedback p { margin: 0 0 6px; }
+.feedback p:last-child { margin-bottom: 0; }
+.feedback-titlu { font-weight: 700; font-size: 1.1rem; }
+.feedback.corect .feedback-titlu { color: var(--corect); }
+.feedback.gresit .feedback-titlu { color: var(--gresit); }
+.feedback-expl { font-size: .95rem; }
+.scor-cerc-verde { background: var(--corect); }
+.actiuni-invatare { display: grid; gap: 10px; }
+.actiuni-invatare .btn-link { justify-self: start; }
+
 /* ---------- Verificare ---------- */
 .form-verif { display: flex; gap: 10px; }
 .form-verif input { margin: 0; }
@@ -198,6 +240,7 @@ form .btn-principal { width: 100%; margin-top: 6px; }
   .rand-2 { grid-template-columns: 1fr; gap: 0; }
   .grila-niveluri { grid-template-columns: repeat(2, 1fr); }
   .actiuni-rezultat { grid-template-columns: 1fr; }
+  .grila-moduri { grid-template-columns: 1fr; }
   .scor-cerc { width: 90px; height: 90px; }
   .scor-cerc span { font-size: 2.1rem; }
   .form-verif { flex-direction: column; }

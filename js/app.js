@@ -16,6 +16,7 @@
   let selectie = null;     // indexul original al variantei selectate
   let termen = 0;          // momentul în care expiră întrebarea curentă
   let cronometru = null;
+  let bancaTema = [];      // toate întrebările temei alese
 
   // ---------- stocare (protejată, poate lipsi) ----------
   const stocare = {
@@ -119,8 +120,9 @@
     try {
       const banca = await Common.incarcaIntrebari(t.id, fisier);
       stare.tema = { id: t.id, titlu: t.titlu, fisier };
-      stare._banca = banca;
+      bancaTema = banca;
       $("titlu-tema-instr").textContent = t.titlu;
+      $("nr-intrebari-banca").textContent = banca.length;
       $("nr-intrebari").textContent = Math.min(CONFIG.intrebariPeTest, banca.length);
       $("nr-secunde").textContent = CONFIG.secundePeIntrebare;
       arata("ecran-instructiuni");
@@ -140,8 +142,7 @@
   };
 
   function startTest() {
-    const banca = stare._banca;
-    delete stare._banca;
+    const banca = bancaTema;
     const alese = amesteca(banca).slice(0, Math.min(CONFIG.intrebariPeTest, banca.length));
     intrebari = alese;
     stare.intrebari = alese.map((q) => ({ id: q.id, ordine: amesteca([0, 1, 2, 3]) }));
@@ -394,9 +395,162 @@
     return true;
   }
 
+  // ===============================================================
+  //  MODUL ÎNVĂȚARE: fără cronometru, cu explicație după fiecare răspuns
+  // ===============================================================
+  const inv = {
+    lista: [],       // întrebările rundei curente
+    ordini: [],      // ordinea variantelor pentru fiecare întrebare
+    i: 0,
+    corecte: 0,
+    raspunse: 0,
+    gresite: [],     // întrebările greșite în runda curentă
+    runda: 1,
+    selectie: null,
+  };
+
+  function pornesteInvatare(lista, runda) {
+    inv.lista = amesteca(lista);
+    inv.ordini = inv.lista.map(() => amesteca([0, 1, 2, 3]));
+    inv.i = 0;
+    inv.corecte = 0;
+    inv.raspunse = 0;
+    inv.gresite = [];
+    inv.runda = runda;
+    arataIntrebareInvatare();
+    arata("ecran-invatare");
+  }
+
+  function arataIntrebareInvatare() {
+    const q = inv.lista[inv.i];
+    const total = inv.lista.length;
+    inv.selectie = null;
+
+    $("inv-progres").textContent = `Întrebarea ${inv.i + 1} din ${total}`;
+    $("inv-scor").textContent = inv.raspunse ? `✓ ${inv.corecte} din ${inv.raspunse}` : "";
+    $("inv-bara").style.width = (inv.i / total) * 100 + "%";
+    const runda = $("inv-runda");
+    runda.hidden = inv.runda === 1;
+    runda.textContent = `Runda ${inv.runda}: exersezi doar întrebările greșite`;
+
+    const img = $("inv-imagine");
+    img.hidden = !q.imagine;
+    img.innerHTML = q.imagine ? `<img src="intrebari/${stare.tema.id}/${esc(q.imagine)}" alt="Ilustrație pentru întrebare">` : "";
+
+    $("inv-text").innerHTML = formateazaText(q.intrebare);
+    const box = $("inv-variante");
+    box.innerHTML = "";
+    inv.ordini[inv.i].forEach((orig, poz) => {
+      const b = document.createElement("button");
+      b.className = "varianta";
+      b.dataset.orig = orig;
+      b.setAttribute("role", "radio");
+      b.setAttribute("aria-checked", "false");
+      b.innerHTML = `<span class="litera">${LITERE[poz]}</span><span>${esc(q.variante[orig])}</span>`;
+      b.addEventListener("click", () => {
+        if (box.classList.contains("blocat")) return;
+        inv.selectie = orig;
+        box.querySelectorAll(".varianta").forEach((x) => {
+          x.classList.toggle("selectat", x === b);
+          x.setAttribute("aria-checked", x === b ? "true" : "false");
+        });
+        $("inv-valideaza").disabled = false;
+      });
+      box.appendChild(b);
+    });
+    box.classList.remove("blocat");
+
+    $("inv-feedback").hidden = true;
+    $("inv-valideaza").hidden = false;
+    $("inv-valideaza").disabled = true;
+    $("inv-urmatoarea").hidden = true;
+  }
+
+  function valideazaInvatare() {
+    if (inv.selectie === null) return;
+    const q = inv.lista[inv.i];
+    const corect = inv.selectie === q.corect;
+    inv.raspunse++;
+    if (corect) inv.corecte++;
+    else inv.gresite.push(q);
+
+    const box = $("inv-variante");
+    box.classList.add("blocat");
+    box.querySelectorAll(".varianta").forEach((b) => {
+      const orig = Number(b.dataset.orig);
+      b.classList.remove("selectat");
+      if (orig === q.corect) b.classList.add("corecta");
+      else if (orig === inv.selectie) b.classList.add("gresita");
+      else b.classList.add("estompat");
+    });
+
+    const fb = $("inv-feedback");
+    fb.className = "feedback " + (corect ? "corect" : "gresit");
+    fb.innerHTML = `
+      <p class="feedback-titlu">${corect ? "✓ Corect!" : "✗ Nu este corect"}</p>
+      ${corect ? "" : `<p>Răspunsul corect este: <strong>${esc(q.variante[q.corect])}</strong></p>`}
+      ${q.explicatie ? `<p class="feedback-expl"><strong>De ce?</strong> ${esc(q.explicatie)}</p>` : ""}`;
+    fb.hidden = false;
+
+    $("inv-scor").textContent = `✓ ${inv.corecte} din ${inv.raspunse}`;
+    $("inv-valideaza").hidden = true;
+    const urm = $("inv-urmatoarea");
+    urm.textContent = inv.i + 1 < inv.lista.length ? "Următoarea întrebare →" : "Vezi rezultatul →";
+    urm.hidden = false;
+    urm.focus({ preventScroll: true });
+    fb.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  }
+
+  function urmatoareaInvatare() {
+    inv.i++;
+    if (inv.i >= inv.lista.length) finalInvatare();
+    else {
+      arataIntrebareInvatare();
+      window.scrollTo(0, 0);
+    }
+  }
+
+  function finalInvatare() {
+    const n = inv.gresite.length;
+    $("invf-tema").textContent = `Învățare · ${stare.tema.titlu}` + (inv.runda > 1 ? ` · runda ${inv.runda}` : "");
+    $("invf-scor").textContent = inv.corecte;
+    $("invf-total").textContent = "din " + inv.raspunse;
+    const neterminat = inv.raspunse < inv.lista.length;
+
+    let mesaj;
+    if (inv.raspunse === 0) mesaj = "Nicio întrebare rezolvată";
+    else if (n === 0) mesaj = inv.runda > 1 ? "Acum le știi pe toate!" : "Perfect!";
+    else if (inv.corecte / inv.raspunse >= 0.75) mesaj = "Foarte bine!";
+    else mesaj = "Continuă să exersezi!";
+    $("invf-mesaj").textContent = mesaj;
+
+    $("invf-detalii").textContent =
+      (neterminat ? `Te-ai oprit după ${inv.raspunse} din ${inv.lista.length} întrebări. ` : "") +
+      (n === 1 ? "Ai greșit o întrebare. Exers-o din nou până o știi!"
+        : n > 1 ? `Ai greșit ${n} întrebări. Exersează-le din nou până le știi!`
+        : inv.raspunse ? "Nicio greșeală în această rundă." : "");
+
+    const btnG = $("invf-greseli");
+    btnG.hidden = n === 0;
+    btnG.textContent = `Exersează din nou ${n === 1 ? "întrebarea greșită" : `cele ${n} întrebări greșite`}`;
+    arata("ecran-invatare-final");
+  }
+
+  function initInvatare() {
+    $("btn-start-invatare").addEventListener("click", () => pornesteInvatare(bancaTema, 1));
+    $("inv-valideaza").addEventListener("click", valideazaInvatare);
+    $("inv-urmatoarea").addEventListener("click", urmatoareaInvatare);
+    $("inv-opreste").addEventListener("click", finalInvatare);
+    $("invf-greseli").addEventListener("click", () => pornesteInvatare(inv.gresite, inv.runda + 1));
+    $("invf-reia").addEventListener("click", () => pornesteInvatare(bancaTema, 1));
+    $("invf-test").addEventListener("click", () => arata("ecran-instructiuni"));
+    $("invf-alta").addEventListener("click", arataTeme);
+  }
+
   // ---------- Pornire ----------
   async function init() {
     initDate();
+    initInvatare();
     $("btn-start").addEventListener("click", startTest);
     $("btn-valideaza").addEventListener("click", () => selectie !== null && inregistreaza(selectie));
     $("btn-skip").addEventListener("click", () => inregistreaza(-1));

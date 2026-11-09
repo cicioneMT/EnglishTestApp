@@ -54,20 +54,82 @@
       </div>
     </section>
 
-    <!-- 4. Instrucțiuni -->
+    <!-- 4. Alegerea modului: Învățare sau Test -->
     <section id="ecran-instructiuni" class="ecran" hidden>
-      <div class="card">
+      <div class="card card-titlu">
+        <p class="eticheta-mica">Tema aleasă</p>
         <h1 id="titlu-tema-instr"></h1>
-        <ul class="reguli">
-          <li>Testul are <strong id="nr-intrebari"></strong> întrebări, fiecare cu 4 variante de răspuns. Doar una este corectă.</li>
-          <li>Ai <strong id="nr-secunde"></strong> de secunde pentru fiecare întrebare.</li>
-          <li>Alege o variantă, apoi apasă <strong>Validează</strong>. Până atunci îți poți schimba alegerea.</li>
-          <li>Dacă timpul expiră, se ia în considerare varianta selectată, chiar dacă nu ai apăsat Validează.</li>
-          <li><strong>Sari peste</strong> trece la următoarea întrebare, dar întrebarea e punctată ca greșită.</li>
-          <li>Nu te poți întoarce la întrebările anterioare. Dacă reîncarci pagina, întrebarea curentă se pierde.</li>
-        </ul>
-        <button id="btn-start" class="btn btn-principal">Începe testul</button>
-        <button class="btn btn-link" data-inapoi="ecran-tema">← Înapoi</button>
+        <p class="subtitlu">Ce vrei să faci?</p>
+      </div>
+      <div class="grila-moduri">
+        <div class="card card-mod mod-invatare">
+          <span class="mod-eticheta">Învățare</span>
+          <h2>Exersează</h2>
+          <ul class="reguli">
+            <li>Toate cele <strong id="nr-intrebari-banca"></strong> de întrebări ale temei, în ordine aleatorie.</li>
+            <li><strong>Fără cronometru</strong>, lucrezi în ritmul tău.</li>
+            <li>După fiecare răspuns afli dacă e corect și <strong>de ce</strong>.</li>
+            <li>La final poți repeta doar întrebările greșite.</li>
+            <li>Nu se trimite nimic profesorului.</li>
+          </ul>
+          <button id="btn-start-invatare" class="btn btn-verde">Începe învățarea</button>
+        </div>
+        <div class="card card-mod mod-test">
+          <span class="mod-eticheta">Test</span>
+          <h2>Dă testul</h2>
+          <ul class="reguli">
+            <li><strong id="nr-intrebari"></strong> întrebări, fiecare cu 4 variante. Doar una este corectă.</li>
+            <li><strong id="nr-secunde"></strong> de secunde pentru fiecare întrebare.</li>
+            <li>Alege o variantă, apoi apasă <strong>Validează</strong>. Până atunci îți poți schimba alegerea.</li>
+            <li>Dacă timpul expiră, contează varianta selectată, chiar dacă nu ai apăsat Validează.</li>
+            <li><strong>Sari peste</strong> trece mai departe, dar întrebarea e punctată ca greșită.</li>
+            <li>Nu te poți întoarce. Dacă reîncarci pagina, întrebarea curentă se pierde.</li>
+            <li>La final primești PDF-ul pentru profesor.</li>
+          </ul>
+          <button id="btn-start" class="btn btn-principal">Începe testul</button>
+        </div>
+      </div>
+      <button class="btn btn-link" data-inapoi="ecran-tema">← Înapoi la teme</button>
+    </section>
+
+    <!-- Modul Învățare -->
+    <section id="ecran-invatare" class="ecran" hidden>
+      <div class="card card-test">
+        <div class="test-sus">
+          <span id="inv-progres" class="progres-text"></span>
+          <span id="inv-scor" class="scor-mic"></span>
+        </div>
+        <div class="bara-timp"><div id="inv-bara" class="bara-invatare"></div></div>
+        <p id="inv-runda" class="runda" hidden></p>
+        <div id="inv-imagine" class="imagine-intrebare" hidden></div>
+        <h2 id="inv-text" class="text-intrebare"></h2>
+        <div id="inv-variante" class="variante" role="radiogroup"></div>
+        <div id="inv-feedback" class="feedback" hidden></div>
+        <div class="test-butoane">
+          <button id="inv-opreste" class="btn btn-secundar">Oprește</button>
+          <button id="inv-valideaza" class="btn btn-principal" disabled>Validează</button>
+          <button id="inv-urmatoarea" class="btn btn-principal" hidden>Următoarea întrebare →</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Finalul unei runde de învățare -->
+    <section id="ecran-invatare-final" class="ecran" hidden>
+      <div class="card">
+        <p class="eticheta-mica" id="invf-tema"></p>
+        <div class="scor">
+          <div class="scor-cerc scor-cerc-verde"><span id="invf-scor"></span><small id="invf-total"></small></div>
+          <div>
+            <h1 id="invf-mesaj"></h1>
+            <p id="invf-detalii" class="subtitlu"></p>
+          </div>
+        </div>
+        <div class="actiuni-invatare">
+          <button id="invf-greseli" class="btn btn-verde"></button>
+          <button id="invf-reia" class="btn btn-secundar">Reia toată tema</button>
+          <button id="invf-test" class="btn btn-principal">Treci la test</button>
+          <button id="invf-alta" class="btn btn-link">← Alege altă temă</button>
+        </div>
       </div>
     </section>
 
