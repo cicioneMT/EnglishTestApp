@@ -1,0 +1,41 @@
+{
+  "teme": [
+    {
+      "id": "word-formation",
+      "titlu": "Word Formation",
+      "descriere": "Prefixes and suffixes in fairy-tale sentences",
+      "ordine": 1,
+      "niveluri": [
+        "B2",
+        "C1"
+      ]
+    },
+    {
+      "id": "november-uk-history",
+      "titlu": "November in UK History",
+      "descriere": "Facts and main events, from early times to the present",
+      "ordine": 2,
+      "niveluri": [
+        "toate"
+      ]
+    },
+    {
+      "id": "november-cultural-highlights",
+      "titlu": "November Cultural Highlights",
+      "descriere": "Traditions, festivals and culture in the UK",
+      "ordine": 3,
+      "niveluri": [
+        "toate"
+      ]
+    },
+    {
+      "id": "uk-history-in-pictures",
+      "titlu": "UK History in Pictures",
+      "descriere": "Look at the drawing and identify the event",
+      "ordine": 4,
+      "niveluri": [
+        "toate"
+      ]
+    }
+  ]
+}

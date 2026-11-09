@@ -1,0 +1,264 @@
+{
+  "intrebari": [
+    {
+      "id": "pic-01",
+      "imagine": "imagini/gunpowder-plot.svg",
+      "intrebare": "Which event from UK history does this drawing show?",
+      "variante": [
+        "The Gunpowder Plot (1605)",
+        "Charles Darwin's voyage on HMS Beagle (1831–1836)",
+        "The Dunkirk evacuation (1940)",
+        "Big Ben first ringing out over Westminster (1859)"
+      ],
+      "corect": 0,
+      "explicatie": "Guy Fawkes was caught with barrels of gunpowder in a cellar under the House of Lords."
+    },
+    {
+      "id": "pic-02",
+      "imagine": "imagini/battle-of-hastings.svg",
+      "intrebare": "Which event from UK history does this drawing show?",
+      "variante": [
+        "The Battle of Hastings (1066)",
+        "Charles Darwin's voyage on HMS Beagle (1831–1836)",
+        "England winning the football World Cup (1966)",
+        "The sinking of the Titanic (1912)"
+      ],
+      "corect": 0,
+      "explicatie": "Norman soldiers wore conical helmets with nose guards and carried kite-shaped shields; William of Normandy's army crossed the Channel by ship."
+    },
+    {
+      "id": "pic-03",
+      "imagine": "imagini/magna-carta.svg",
+      "intrebare": "Which event from UK history does this drawing show?",
+      "variante": [
+        "The sealing of Magna Carta (1215)",
+        "The defeat of the Spanish Armada (1588)",
+        "England winning the football World Cup (1966)",
+        "The Industrial Revolution (c. 1760–1840)"
+      ],
+      "corect": 0,
+      "explicatie": "King John put his seal on the charter at Runnymede, a meadow beside the River Thames."
+    },
+    {
+      "id": "pic-04",
+      "imagine": "imagini/great-fire-of-london.svg",
+      "intrebare": "Which event from UK history does this drawing show?",
+      "variante": [
+        "The Great Fire of London (1666)",
+        "The defeat of the Spanish Armada (1588)",
+        "The building of Stonehenge (c. 3000–2000 BC)",
+        "Charles Darwin's voyage on HMS Beagle (1831–1836)"
+      ],
+      "corect": 0,
+      "explicatie": "The fire started in a bakery in Pudding Lane and destroyed most of the timber-framed medieval city."
+    },
+    {
+      "id": "pic-05",
+      "imagine": "imagini/stonehenge.svg",
+      "intrebare": "Which event from UK history does this drawing show?",
+      "variante": [
+        "The building of Stonehenge (c. 3000–2000 BC)",
+        "Trench warfare in the First World War (1914–1918)",
+        "The building of Hadrian's Wall (from AD 122)",
+        "The sealing of Magna Carta (1215)"
+      ],
+      "corect": 0,
+      "explicatie": "The huge standing stones with lintels on top were raised in several stages over about 1,000 years."
+    },
+    {
+      "id": "pic-06",
+      "imagine": "imagini/hadrians-wall.svg",
+      "intrebare": "Which event from UK history does this drawing show?",
+      "variante": [
+        "The building of Hadrian's Wall (from AD 122)",
+        "The Dunkirk evacuation (1940)",
+        "The Battle of Hastings (1066)",
+        "The opening of the Channel Tunnel (1994)"
+      ],
+      "corect": 0,
+      "explicatie": "The Roman emperor Hadrian ordered a wall across northern Britain, with small forts called milecastles."
+    },
+    {
+      "id": "pic-07",
+      "imagine": "imagini/spanish-armada.svg",
+      "intrebare": "Which event from UK history does this drawing show?",
+      "variante": [
+        "The defeat of the Spanish Armada (1588)",
+        "Charles Darwin's voyage on HMS Beagle (1831–1836)",
+        "The building of Hadrian's Wall (from AD 122)",
+        "The Gunpowder Plot (1605)"
+      ],
+      "corect": 0,
+      "explicatie": "English fire ships broke up the Spanish fleet's formation near Calais."
+    },
+    {
+      "id": "pic-08",
+      "imagine": "imagini/titanic.svg",
+      "intrebare": "Which event from UK history does this drawing show?",
+      "variante": [
+        "The sinking of the Titanic (1912)",
+        "England winning the football World Cup (1966)",
+        "The sealing of Magna Carta (1215)",
+        "The Battle of Hastings (1066)"
+      ],
+      "corect": 0,
+      "explicatie": "The four-funnelled liner, built in Belfast, struck an iceberg on her first voyage."
+    },
+    {
+      "id": "pic-09",
+      "imagine": "imagini/first-steam-railway.svg",
+      "intrebare": "Which event from UK history does this drawing show?",
+      "variante": [
+        "The opening of the first steam passenger railways (1820s–1830s)",
+        "The Battle of Hastings (1066)",
+        "The defeat of the Spanish Armada (1588)",
+        "The sinking of the Titanic (1912)"
+      ],
+      "corect": 0,
+      "explicatie": "Locomotives such as Stephenson's 'Rocket' pulled passenger carriages on the Liverpool and Manchester Railway (1830)."
+    },
+    {
+      "id": "pic-10",
+      "imagine": "imagini/suffragettes.svg",
+      "intrebare": "Which event from UK history does this drawing show?",
+      "variante": [
+        "The suffragette campaign for votes for women (early 1900s)",
+        "The Gunpowder Plot (1605)",
+        "Charles Darwin's voyage on HMS Beagle (1831–1836)",
+        "The Battle of Britain (1940)"
+      ],
+      "corect": 0,
+      "explicatie": "Suffragettes wore sashes, carried banners and sometimes chained themselves to railings."
+    },
+    {
+      "id": "pic-11",
+      "imagine": "imagini/first-world-war-trenches.svg",
+      "intrebare": "Which event from UK history does this drawing show?",
+      "variante": [
+        "Trench warfare in the First World War (1914–1918)",
+        "Charles Darwin's voyage on HMS Beagle (1831–1836)",
+        "The defeat of the Spanish Armada (1588)",
+        "England winning the football World Cup (1966)"
+      ],
+      "corect": 0,
+      "explicatie": "Soldiers in flat steel helmets lived in trenches protected by sandbags and barbed wire."
+    },
+    {
+      "id": "pic-12",
+      "imagine": "imagini/battle-of-britain.svg",
+      "intrebare": "Which event from UK history does this drawing show?",
+      "variante": [
+        "The Battle of Britain (1940)",
+        "The sinking of the Titanic (1912)",
+        "The suffragette campaign for votes for women (early 1900s)",
+        "The Industrial Revolution (c. 1760–1840)"
+      ],
+      "corect": 0,
+      "explicatie": "RAF fighter planes defended the skies over southern England and the white cliffs of Dover."
+    },
+    {
+      "id": "pic-13",
+      "imagine": "imagini/coronation-1953.svg",
+      "intrebare": "Which event from UK history does this drawing show?",
+      "variante": [
+        "The coronation of Elizabeth II, shown live on TV (1953)",
+        "The Gunpowder Plot (1605)",
+        "The sealing of Magna Carta (1215)",
+        "Charles Darwin's voyage on HMS Beagle (1831–1836)"
+      ],
+      "corect": 0,
+      "explicatie": "Millions of people bought or borrowed a television set to watch the coronation."
+    },
+    {
+      "id": "pic-14",
+      "imagine": "imagini/channel-tunnel.svg",
+      "intrebare": "Which event from UK history does this drawing show?",
+      "variante": [
+        "The opening of the Channel Tunnel (1994)",
+        "The opening of the first steam passenger railways (1820s–1830s)",
+        "Alexander Fleming's discovery of penicillin (1928)",
+        "The sealing of Magna Carta (1215)"
+      ],
+      "corect": 0,
+      "explicatie": "The tunnel runs under the seabed between England and France; ferries still cross on the surface."
+    },
+    {
+      "id": "pic-15",
+      "imagine": "imagini/penicillin.svg",
+      "intrebare": "Which event from UK history does this drawing show?",
+      "variante": [
+        "Alexander Fleming's discovery of penicillin (1928)",
+        "The opening of the first steam passenger railways (1820s–1830s)",
+        "Trench warfare in the First World War (1914–1918)",
+        "The sinking of the Titanic (1912)"
+      ],
+      "corect": 0,
+      "explicatie": "Fleming noticed that a mould on a Petri dish killed the bacteria around it."
+    },
+    {
+      "id": "pic-16",
+      "imagine": "imagini/darwin-beagle.svg",
+      "intrebare": "Which event from UK history does this drawing show?",
+      "variante": [
+        "Charles Darwin's voyage on HMS Beagle (1831–1836)",
+        "England winning the football World Cup (1966)",
+        "The suffragette campaign for votes for women (early 1900s)",
+        "The Gunpowder Plot (1605)"
+      ],
+      "corect": 0,
+      "explicatie": "On the Galápagos Islands Darwin studied giant tortoises and finches with different beaks."
+    },
+    {
+      "id": "pic-17",
+      "imagine": "imagini/industrial-revolution.svg",
+      "intrebare": "Which event from UK history does this drawing show?",
+      "variante": [
+        "The Industrial Revolution (c. 1760–1840)",
+        "The sealing of Magna Carta (1215)",
+        "The Great Fire of London (1666)",
+        "The coronation of Elizabeth II, shown live on TV (1953)"
+      ],
+      "corect": 0,
+      "explicatie": "Mills, factory chimneys and canals changed Britain's towns and landscape."
+    },
+    {
+      "id": "pic-18",
+      "imagine": "imagini/world-cup-1966.svg",
+      "intrebare": "Which event from UK history does this drawing show?",
+      "variante": [
+        "England winning the football World Cup (1966)",
+        "The Great Fire of London (1666)",
+        "The suffragette campaign for votes for women (early 1900s)",
+        "The coronation of Elizabeth II, shown live on TV (1953)"
+      ],
+      "corect": 0,
+      "explicatie": "England beat West Germany 4–2 in the final at Wembley Stadium, famous for its twin towers."
+    },
+    {
+      "id": "pic-19",
+      "imagine": "imagini/dunkirk.svg",
+      "intrebare": "Which event from UK history does this drawing show?",
+      "variante": [
+        "The Dunkirk evacuation (1940)",
+        "The sealing of Magna Carta (1215)",
+        "The Gunpowder Plot (1605)",
+        "England winning the football World Cup (1966)"
+      ],
+      "corect": 0,
+      "explicatie": "Navy ships and hundreds of 'little ships' rescued soldiers waiting in lines on the beaches."
+    },
+    {
+      "id": "pic-20",
+      "imagine": "imagini/big-ben.svg",
+      "intrebare": "Which event from UK history does this drawing show?",
+      "variante": [
+        "Big Ben first ringing out over Westminster (1859)",
+        "The defeat of the Spanish Armada (1588)",
+        "The Dunkirk evacuation (1940)",
+        "The Battle of Hastings (1066)"
+      ],
+      "corect": 0,
+      "explicatie": "The Great Clock and its bell, Big Ben, started working in 1859 in the tower now called the Elizabeth Tower."
+    }
+  ]
+}

@@ -1,0 +1,484 @@
+{
+  "intrebari": [
+    {
+      "id": "hist-01",
+      "intrebare": "On St Brice's Day, 13 November 1002, King Æthelred the Unready ordered the killing of which people living in England?",
+      "variante": [
+        "the Danes",
+        "the Normans",
+        "the Romans",
+        "the Scots"
+      ],
+      "corect": 0,
+      "explicatie": "The St Brice's Day massacre (1002) targeted Danish settlers in England."
+    },
+    {
+      "id": "hist-02",
+      "intrebare": "Queen Eleanor of Castile died on 28 November 1290. Her grieving husband, Edward I, built a series of monuments in her memory known as...",
+      "variante": [
+        "the Eleanor crosses",
+        "the Mercian stones",
+        "the King's chapels",
+        "the round towers"
+      ],
+      "corect": 0,
+      "explicatie": "Twelve Eleanor crosses marked the places where her body rested on the way to London; Charing Cross is named after the last one."
+    },
+    {
+      "id": "hist-03",
+      "intrebare": "Which powerful chancellor of Henry VIII died at Leicester on 29 November 1530 while travelling to face charges of treason?",
+      "variante": [
+        "Cardinal Thomas Wolsey",
+        "Thomas Cromwell",
+        "Thomas More",
+        "Thomas Cranmer"
+      ],
+      "corect": 0,
+      "explicatie": "Wolsey died at Leicester Abbey in November 1530. Cromwell and More were executed; Cranmer was burned at the stake."
+    },
+    {
+      "id": "hist-04",
+      "intrebare": "The Act of Supremacy, passed by Parliament in November 1534, declared Henry VIII...",
+      "variante": [
+        "Supreme Head of the Church of England",
+        "King of Ireland",
+        "Defender of the Faith",
+        "Lord Protector of England"
+      ],
+      "corect": 0,
+      "explicatie": "The 1534 Act made the king head of the English Church, completing the break with Rome."
+    },
+    {
+      "id": "hist-05",
+      "intrebare": "On 17 November 1558, Elizabeth I became queen after the death of which monarch?",
+      "variante": [
+        "Mary I",
+        "Edward VI",
+        "Henry VIII",
+        "James I"
+      ],
+      "corect": 0,
+      "explicatie": "Elizabeth succeeded her half-sister Mary I. 17 November was later celebrated as 'Accession Day'."
+    },
+    {
+      "id": "hist-06",
+      "intrebare": "Which king, later executed in 1649, was born in Dunfermline, Scotland, on 19 November 1600?",
+      "variante": [
+        "Charles I",
+        "James I",
+        "Charles II",
+        "James II"
+      ],
+      "corect": 0,
+      "explicatie": "Charles I was born in Dunfermline Palace on 19 November 1600."
+    },
+    {
+      "id": "hist-07",
+      "intrebare": "What did Guy Fawkes and his fellow conspirators plan to blow up on 5 November 1605?",
+      "variante": [
+        "the Houses of Parliament",
+        "the Tower of London",
+        "Westminster Abbey",
+        "St Paul's Cathedral"
+      ],
+      "corect": 0,
+      "explicatie": "The Gunpowder Plot aimed to blow up the House of Lords during the State Opening of Parliament."
+    },
+    {
+      "id": "hist-08",
+      "intrebare": "Which king was the main target of the Gunpowder Plot in 1605?",
+      "variante": [
+        "James I",
+        "Charles I",
+        "Elizabeth I",
+        "Henry VIII"
+      ],
+      "corect": 0,
+      "explicatie": "The Catholic plotters wanted to kill the Protestant King James I."
+    },
+    {
+      "id": "hist-09",
+      "intrebare": "Where was Guy Fawkes discovered in the early hours of 5 November 1605?",
+      "variante": [
+        "in a cellar beneath the House of Lords",
+        "in the Tower of London",
+        "in Whitehall Palace",
+        "on Westminster Bridge"
+      ],
+      "corect": 0,
+      "explicatie": "He was caught guarding 36 barrels of gunpowder in a cellar (undercroft) below the House of Lords."
+    },
+    {
+      "id": "hist-10",
+      "intrebare": "After the plot failed, Parliament passed a law in 1606 ordering people to mark 5 November every year as a day of...",
+      "variante": [
+        "public thanksgiving",
+        "mourning",
+        "fasting",
+        "silence"
+      ],
+      "corect": 0,
+      "explicatie": "The Observance of 5th November Act (1606) made the day a day of thanksgiving for the king's survival."
+    },
+    {
+      "id": "hist-11",
+      "intrebare": "The Pilgrims who signed the Mayflower Compact in November 1620 had made their final departure from which English port?",
+      "variante": [
+        "Plymouth",
+        "Dover",
+        "Liverpool",
+        "Hull"
+      ],
+      "corect": 0,
+      "explicatie": "The Mayflower left Plymouth in September 1620 and reached Cape Cod in November."
+    },
+    {
+      "id": "hist-12",
+      "intrebare": "Which scientific society was founded in London on 28 November 1660?",
+      "variante": [
+        "the Royal Society",
+        "the Royal Institution",
+        "the British Association",
+        "the Linnean Society"
+      ],
+      "corect": 0,
+      "explicatie": "The Royal Society was founded on 28 November 1660, after a lecture by Christopher Wren."
+    },
+    {
+      "id": "hist-13",
+      "intrebare": "On 5 November 1688, William of Orange landed at Torbay in Devon, beginning what became known as the...",
+      "variante": [
+        "Glorious Revolution",
+        "Restoration",
+        "Reformation",
+        "Civil War"
+      ],
+      "corect": 0,
+      "explicatie": "William's landing led to the flight of James II and the 'Glorious Revolution'."
+    },
+    {
+      "id": "hist-14",
+      "intrebare": "News of which naval victory, and of Admiral Nelson's death, reached London on 6 November 1805?",
+      "variante": [
+        "the Battle of Trafalgar",
+        "the Battle of the Nile",
+        "the Battle of Copenhagen",
+        "the defeat of the Armada"
+      ],
+      "corect": 0,
+      "explicatie": "Trafalgar was fought on 21 October 1805; the news reached the Admiralty on 6 November."
+    },
+    {
+      "id": "hist-15",
+      "intrebare": "Which son of Queen Victoria, later king, was born on 9 November 1841?",
+      "variante": [
+        "Edward VII",
+        "George V",
+        "William IV",
+        "George IV"
+      ],
+      "corect": 0,
+      "explicatie": "Albert Edward, the future Edward VII, was born at Buckingham Palace on 9 November 1841."
+    },
+    {
+      "id": "hist-16",
+      "intrebare": "In November 1854, which nurse arrived at the British army hospital in Scutari during the Crimean War?",
+      "variante": [
+        "Florence Nightingale",
+        "Mary Seacole",
+        "Edith Cavell",
+        "Elizabeth Fry"
+      ],
+      "corect": 0,
+      "explicatie": "Florence Nightingale arrived at Scutari in early November 1854 with a team of nurses."
+    },
+    {
+      "id": "hist-17",
+      "intrebare": "Which famous book by Charles Darwin was first published on 24 November 1859?",
+      "variante": [
+        "On the Origin of Species",
+        "The Descent of Man",
+        "The Voyage of the Beagle",
+        "A Brief History of Time"
+      ],
+      "corect": 0,
+      "explicatie": "'On the Origin of Species' sold out on its first day of publication."
+    },
+    {
+      "id": "hist-18",
+      "intrebare": "Which future Prime Minister was born at Blenheim Palace on 30 November 1874?",
+      "variante": [
+        "Winston Churchill",
+        "David Lloyd George",
+        "Clement Attlee",
+        "Neville Chamberlain"
+      ],
+      "corect": 0,
+      "explicatie": "Winston Churchill was born at Blenheim Palace, Oxfordshire."
+    },
+    {
+      "id": "hist-19",
+      "intrebare": "Which First World War poet was killed on 4 November 1918, just one week before the Armistice?",
+      "variante": [
+        "Wilfred Owen",
+        "Siegfried Sassoon",
+        "Rupert Brooke",
+        "Robert Graves"
+      ],
+      "corect": 0,
+      "explicatie": "Owen's family received the news on Armistice Day. Sassoon and Graves survived the war; Brooke died in 1915."
+    },
+    {
+      "id": "hist-20",
+      "intrebare": "At what time did the Armistice ending the fighting of the First World War take effect on 11 November 1918?",
+      "variante": [
+        "11 a.m.",
+        "9 a.m.",
+        "noon",
+        "midnight"
+      ],
+      "corect": 0,
+      "explicatie": "'The eleventh hour of the eleventh day of the eleventh month.'"
+    },
+    {
+      "id": "hist-21",
+      "intrebare": "An Act of Parliament passed in November 1918 allowed women in the UK to do what for the first time?",
+      "variante": [
+        "stand as candidates for Parliament",
+        "vote in general elections",
+        "study at university",
+        "own property"
+      ],
+      "corect": 0,
+      "explicatie": "The Parliament (Qualification of Women) Act 1918 let women become MPs. Some women had won the vote earlier that year."
+    },
+    {
+      "id": "hist-22",
+      "intrebare": "In November 1919, who was elected as the first woman to take her seat in the House of Commons?",
+      "variante": [
+        "Nancy Astor",
+        "Emmeline Pankhurst",
+        "Constance Markievicz",
+        "Margaret Bondfield"
+      ],
+      "corect": 0,
+      "explicatie": "Nancy Astor won Plymouth Sutton in November 1919. Markievicz had been elected in 1918 but did not take her seat."
+    },
+    {
+      "id": "hist-23",
+      "intrebare": "Which war memorial in Whitehall was unveiled in its permanent stone form on 11 November 1920?",
+      "variante": [
+        "the Cenotaph",
+        "Nelson's Column",
+        "Marble Arch",
+        "the Albert Memorial"
+      ],
+      "corect": 0,
+      "explicatie": "The Cenotaph, designed by Edwin Lutyens, is the focus of the national Remembrance ceremony."
+    },
+    {
+      "id": "hist-24",
+      "intrebare": "On 11 November 1920, the body of which symbolic figure was buried in Westminster Abbey?",
+      "variante": [
+        "the Unknown Warrior",
+        "Admiral Nelson",
+        "the Duke of Wellington",
+        "Captain Scott"
+      ],
+      "corect": 0,
+      "explicatie": "An unidentified soldier was buried to represent all those killed in the First World War."
+    },
+    {
+      "id": "hist-25",
+      "intrebare": "On 4 November 1922, British archaeologist Howard Carter's team found the first step leading to the tomb of which pharaoh?",
+      "variante": [
+        "Tutankhamun",
+        "Ramesses II",
+        "Khufu",
+        "Akhenaten"
+      ],
+      "corect": 0,
+      "explicatie": "The discovery in Egypt's Valley of the Kings became world-famous."
+    },
+    {
+      "id": "hist-26",
+      "intrebare": "Which broadcaster began daily radio broadcasts from London on 14 November 1922?",
+      "variante": [
+        "the BBC",
+        "ITV",
+        "Channel 4",
+        "Sky"
+      ],
+      "corect": 0,
+      "explicatie": "The British Broadcasting Company began daily broadcasts from station 2LO."
+    },
+    {
+      "id": "hist-27",
+      "intrebare": "On 2 November 1936, the BBC began the world's first regular high-definition television service from which London building?",
+      "variante": [
+        "Alexandra Palace",
+        "Crystal Palace",
+        "Broadcasting House",
+        "Television Centre"
+      ],
+      "corect": 0,
+      "explicatie": "Alexandra Palace, in north London, is still known as 'the birthplace of television'."
+    },
+    {
+      "id": "hist-28",
+      "intrebare": "Which city's medieval cathedral was destroyed in a German air raid on 14 November 1940?",
+      "variante": [
+        "Coventry",
+        "Liverpool",
+        "Manchester",
+        "Bristol"
+      ],
+      "corect": 0,
+      "explicatie": "The ruins of old Coventry Cathedral still stand beside the new cathedral."
+    },
+    {
+      "id": "hist-29",
+      "intrebare": "On the night of 11–12 November 1940, aircraft from HMS Illustrious attacked the Italian fleet at which harbour?",
+      "variante": [
+        "Taranto",
+        "Naples",
+        "Genoa",
+        "Venice"
+      ],
+      "corect": 0,
+      "explicatie": "The Battle of Taranto was the first all-aircraft naval attack in history."
+    },
+    {
+      "id": "hist-30",
+      "intrebare": "After the victory at El Alamein, Churchill said on 10 November 1942: 'This is not the end... It is, perhaps, the end of the ______.'",
+      "variante": [
+        "beginning",
+        "war",
+        "empire",
+        "darkness"
+      ],
+      "corect": 0,
+      "explicatie": "'Now this is not the end. It is not even the beginning of the end. But it is, perhaps, the end of the beginning.'"
+    },
+    {
+      "id": "hist-31",
+      "intrebare": "On 20 November 1947, Princess Elizabeth married Philip Mountbatten in which church?",
+      "variante": [
+        "Westminster Abbey",
+        "St Paul's Cathedral",
+        "St George's Chapel, Windsor",
+        "Canterbury Cathedral"
+      ],
+      "corect": 0,
+      "explicatie": "The wedding at Westminster Abbey was broadcast on radio to 200 million people."
+    },
+    {
+      "id": "hist-32",
+      "intrebare": "Which future king was born at Buckingham Palace on 14 November 1948?",
+      "variante": [
+        "Charles III",
+        "William, Prince of Wales",
+        "Edward VIII",
+        "George VI"
+      ],
+      "corect": 0,
+      "explicatie": "Charles III was born on 14 November 1948 and became king in 2022."
+    },
+    {
+      "id": "hist-33",
+      "intrebare": "Which Prime Minister announced her resignation on 22 November 1990?",
+      "variante": [
+        "Margaret Thatcher",
+        "Theresa May",
+        "Liz Truss",
+        "Barbara Castle"
+      ],
+      "corect": 0,
+      "explicatie": "Margaret Thatcher resigned after 11 years in office. Barbara Castle was a minister but never Prime Minister."
+    },
+    {
+      "id": "hist-34",
+      "intrebare": "Which royal residence was badly damaged by fire on 20 November 1992?",
+      "variante": [
+        "Windsor Castle",
+        "Buckingham Palace",
+        "Balmoral Castle",
+        "Sandringham House"
+      ],
+      "corect": 0,
+      "explicatie": "The fire destroyed or damaged more than 100 rooms; restoration took five years."
+    },
+    {
+      "id": "hist-35",
+      "intrebare": "In a speech in November 1992, Queen Elizabeth II described that year as her...",
+      "variante": [
+        "annus horribilis",
+        "finest hour",
+        "year of jubilee",
+        "winter of discontent"
+      ],
+      "corect": 0,
+      "explicatie": "Latin for 'horrible year' — 1992 included the Windsor fire and several royal separations."
+    },
+    {
+      "id": "hist-36",
+      "intrebare": "The Maastricht Treaty, which created the European Union, came into force on 1 November 1993. In which year did the UK leave the EU?",
+      "variante": [
+        "2020",
+        "2016",
+        "2019",
+        "2021"
+      ],
+      "corect": 0,
+      "explicatie": "The UK voted to leave in 2016 and formally left on 31 January 2020."
+    },
+    {
+      "id": "hist-37",
+      "intrebare": "In November 1994, regular passenger trains began running through which tunnel?",
+      "variante": [
+        "the Channel Tunnel",
+        "the Severn Tunnel",
+        "the Mersey Tunnel",
+        "the Thames Tunnel"
+      ],
+      "corect": 0,
+      "explicatie": "Eurostar services between London, Paris and Brussels began on 14 November 1994."
+    },
+    {
+      "id": "hist-38",
+      "intrebare": "The first draw of which game took place on BBC television on 19 November 1994?",
+      "variante": [
+        "the National Lottery",
+        "Premium Bonds",
+        "the football pools",
+        "bingo"
+      ],
+      "corect": 0,
+      "explicatie": "The first National Lottery draw was watched by millions; Premium Bonds date from 1956."
+    },
+    {
+      "id": "hist-39",
+      "intrebare": "On 22 November 2003, England became the first northern-hemisphere team to win which tournament?",
+      "variante": [
+        "the Rugby World Cup",
+        "the FIFA World Cup",
+        "the Cricket World Cup",
+        "the Six Nations"
+      ],
+      "corect": 0,
+      "explicatie": "Jonny Wilkinson's drop goal in extra time beat Australia in Sydney."
+    },
+    {
+      "id": "hist-40",
+      "intrebare": "Since 1919, how long is the silence held at 11 a.m. on Armistice Day?",
+      "variante": [
+        "two minutes",
+        "one minute",
+        "five minutes",
+        "eleven minutes"
+      ],
+      "corect": 0,
+      "explicatie": "King George V asked for a two-minute silence on the first anniversary of the Armistice in 1919."
+    }
+  ]
+}

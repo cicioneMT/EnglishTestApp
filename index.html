@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>English Test</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="bara-sus">
+    <div class="sigla"><span class="sigla-semn">E</span> English Test</div>
+    <div id="info-elev" class="info-elev"></div>
+  </header>
+
+  <main>
+    <!-- 1. Datele elevului -->
+    <section id="ecran-date" class="ecran">
+      <div class="card">
+        <h1>Bine ai venit!</h1>
+        <p class="subtitlu">Completează datele tale, apoi alege nivelul și tema testului.</p>
+        <form id="form-date" autocomplete="on" novalidate>
+          <div class="rand-2">
+            <label>Nume<input name="nume" required autocomplete="family-name"></label>
+            <label>Prenume<input name="prenume" required autocomplete="given-name"></label>
+          </div>
+          <label>Școala<input name="scoala" required></label>
+          <label>Clasa<input name="clasa" required placeholder="ex. a X-a B"></label>
+          <p id="eroare-date" class="eroare" hidden>Te rog completează toate câmpurile.</p>
+          <button class="btn btn-principal" type="submit">Continuă</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- 2. Nivelul -->
+    <section id="ecran-nivel" class="ecran" hidden>
+      <div class="card">
+        <h1>Alege nivelul</h1>
+        <p class="subtitlu">Alege nivelul recomandat de profesorul tău.</p>
+        <div id="lista-niveluri" class="grila-niveluri"></div>
+        <button class="btn btn-link" data-inapoi="ecran-date">← Înapoi</button>
+      </div>
+    </section>
+
+    <!-- 3. Tema -->
+    <section id="ecran-tema" class="ecran" hidden>
+      <div class="card">
+        <h1>Alege tema</h1>
+        <p class="subtitlu">Nivel <strong id="nivel-ales"></strong></p>
+        <div id="lista-teme" class="lista-teme"></div>
+        <button class="btn btn-link" data-inapoi="ecran-nivel">← Înapoi</button>
+      </div>
+    </section>
+
+    <!-- 4. Instrucțiuni -->
+    <section id="ecran-instructiuni" class="ecran" hidden>
+      <div class="card">
+        <h1 id="titlu-tema-instr"></h1>
+        <ul class="reguli">
+          <li>Testul are <strong id="nr-intrebari"></strong> întrebări, fiecare cu 4 variante de răspuns. Doar una este corectă.</li>
+          <li>Ai <strong id="nr-secunde"></strong> de secunde pentru fiecare întrebare.</li>
+          <li>Alege o variantă, apoi apasă <strong>Validează</strong>. Până atunci îți poți schimba alegerea.</li>
+          <li>Dacă timpul expiră, se ia în considerare varianta selectată, chiar dacă nu ai apăsat Validează.</li>
+          <li><strong>Sari peste</strong> trece la următoarea întrebare, dar întrebarea e punctată ca greșită.</li>
+          <li>Nu te poți întoarce la întrebările anterioare. Dacă reîncarci pagina, întrebarea curentă se pierde.</li>
+        </ul>
+        <button id="btn-start" class="btn btn-principal">Începe testul</button>
+        <button class="btn btn-link" data-inapoi="ecran-tema">← Înapoi</button>
+      </div>
+    </section>
+
+    <!-- 5. Testul -->
+    <section id="ecran-test" class="ecran" hidden>
+      <div class="card card-test">
+        <div class="test-sus">
+          <span id="progres-text" class="progres-text"></span>
+          <span id="timer" class="timer" aria-live="polite"></span>
+        </div>
+        <div class="bara-timp"><div id="bara-timp-plin"></div></div>
+        <div class="bara-progres" id="bara-progres"></div>
+        <div id="imagine-intrebare" class="imagine-intrebare" hidden></div>
+        <h2 id="text-intrebare" class="text-intrebare"></h2>
+        <div id="variante" class="variante" role="radiogroup"></div>
+        <div class="test-butoane">
+          <button id="btn-skip" class="btn btn-secundar">Sari peste</button>
+          <button id="btn-valideaza" class="btn btn-principal" disabled>Validează</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Rezultatul -->
+    <section id="ecran-rezultat" class="ecran" hidden>
+      <div class="card">
+        <p class="eticheta-mica" id="rez-tema"></p>
+        <div class="scor">
+          <div class="scor-cerc"><span id="rez-scor"></span><small id="rez-total"></small></div>
+          <div>
+            <h1 id="rez-mesaj"></h1>
+            <p id="rez-detalii" class="subtitlu"></p>
+          </div>
+        </div>
+        <div class="actiuni-rezultat">
+          <button id="btn-trimite" class="btn btn-principal">Trimite PDF-ul profesorului</button>
+          <button id="btn-descarca" class="btn btn-secundar">Descarcă PDF</button>
+        </div>
+        <p id="mesaj-pdf" class="mesaj-info" hidden></p>
+        <p class="cod-verif">Cod de verificare: <strong id="rez-cod"></strong></p>
+      </div>
+      <div class="card">
+        <h2>Răspunsurile tale</h2>
+        <ol id="rez-lista" class="rez-lista"></ol>
+        <button id="btn-test-nou" class="btn btn-secundar">Începe un test nou</button>
+      </div>
+    </section>
+
+    <section id="ecran-eroare" class="ecran" hidden>
+      <div class="card"><h1>Ceva nu a mers</h1><p id="text-eroare"></p></div>
+    </section>
+  </main>
+
+  <div id="notificare" class="notificare" hidden></div>
+
+  <script src="js/lib/jspdf.umd.min.js"></script>
+  <script src="js/lib/qrcode.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/pdf.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

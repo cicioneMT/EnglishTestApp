@@ -1,0 +1,484 @@
+{
+  "intrebari": [
+    {
+      "id": "wf-b2-01",
+      "intrebare": "Cinderella's stepsisters treated her with great ______. (KIND)",
+      "variante": [
+        "unkindness",
+        "inkindness",
+        "diskindness",
+        "kindlessness"
+      ],
+      "corect": 0,
+      "explicatie": "un- + kind + -ness: noun meaning 'lack of kindness'."
+    },
+    {
+      "id": "wf-b2-02",
+      "intrebare": "The miller's boast that his daughter could spin straw into gold was utterly ______. (BELIEVE)",
+      "variante": [
+        "unbelievable",
+        "disbelievable",
+        "imbelievable",
+        "believeless"
+      ],
+      "corect": 0,
+      "explicatie": "un- + believe + -able. The final -e of 'believe' is dropped before -able."
+    },
+    {
+      "id": "wf-b2-03",
+      "intrebare": "The birds ate Hansel's breadcrumbs, so the path home became ______. (TRACE)",
+      "variante": [
+        "untraceable",
+        "untracable",
+        "intraceable",
+        "distraceable"
+      ],
+      "corect": 0,
+      "explicatie": "After a soft 'c' the -e is kept before -able: trace → traceable → untraceable."
+    },
+    {
+      "id": "wf-b2-04",
+      "intrebare": "The queen could not bear Snow White's ______ beauty. (COMPARE)",
+      "variante": [
+        "incomparable",
+        "discomparable",
+        "comparative",
+        "comparison"
+      ],
+      "corect": 0,
+      "explicatie": "'Comparable' takes the prefix in-: incomparable = so great that nothing compares with it."
+    },
+    {
+      "id": "wf-b2-05",
+      "intrebare": "The gingerbread house was completely ______ to the hungry children. (RESIST)",
+      "variante": [
+        "irresistible",
+        "unresistible",
+        "irresistable",
+        "disresistible"
+      ],
+      "corect": 0,
+      "explicatie": "in- becomes ir- before 'r'; 'resist' takes the suffix -ible, not -able."
+    },
+    {
+      "id": "wf-b2-06",
+      "intrebare": "The prince searched the kingdom for the ______ of the glass slipper. (OWN)",
+      "variante": [
+        "owner",
+        "ownee",
+        "ownist",
+        "owning"
+      ],
+      "corect": 0,
+      "explicatie": "The suffix -er forms a noun for a person: own → owner."
+    },
+    {
+      "id": "wf-b2-07",
+      "intrebare": "The wicked queen was famous for her ______. (VAIN)",
+      "variante": [
+        "vanity",
+        "vainity",
+        "vaness",
+        "vainhood"
+      ],
+      "corect": 0,
+      "explicatie": "The noun from 'vain' is 'vanity' — note the spelling change."
+    },
+    {
+      "id": "wf-b2-08",
+      "intrebare": "The first little pig built his house of straw rather ______. (CARE)",
+      "variante": [
+        "carelessly",
+        "uncarefully",
+        "carefulless",
+        "careless"
+      ],
+      "corect": 0,
+      "explicatie": "We need an adverb that describes how he built: care + -less + -ly."
+    },
+    {
+      "id": "wf-b2-09",
+      "intrebare": "Rumpelstiltskin flew into a rage when the queen guessed his name ______. (CORRECT)",
+      "variante": [
+        "correctly",
+        "correctful",
+        "correction",
+        "incorrectly"
+      ],
+      "corect": 0,
+      "explicatie": "An adverb is needed; the story tells us she guessed right, so 'correctly'."
+    },
+    {
+      "id": "wf-b2-10",
+      "intrebare": "The giant's ______ shook the whole castle. (ANGRY)",
+      "variante": [
+        "anger",
+        "angryness",
+        "angerment",
+        "angerness"
+      ],
+      "corect": 0,
+      "explicatie": "The noun related to 'angry' is 'anger'."
+    },
+    {
+      "id": "wf-b2-11",
+      "intrebare": "The fairy godmother granted Cinderella's wish with great ______. (GENEROUS)",
+      "variante": [
+        "generosity",
+        "generosness",
+        "generousity",
+        "generocity"
+      ],
+      "corect": 0,
+      "explicatie": "generous → generosity: the -u- disappears before -ity."
+    },
+    {
+      "id": "wf-b2-12",
+      "intrebare": "The woodcutter's ______ saved Little Red Riding Hood. (BRAVE)",
+      "variante": [
+        "bravery",
+        "bravety",
+        "bravance",
+        "bravement"
+      ],
+      "corect": 0,
+      "explicatie": "brave + -ery forms the noun 'bravery'."
+    },
+    {
+      "id": "wf-b2-13",
+      "intrebare": "Under the spell, Sleeping Beauty lay ______ for a hundred years. (MOVE)",
+      "variante": [
+        "unmoving",
+        "inmoving",
+        "dismoving",
+        "movingless"
+      ],
+      "corect": 0,
+      "explicatie": "un- + moving: 'not moving'."
+    },
+    {
+      "id": "wf-b2-14",
+      "intrebare": "The princess felt deeply ______ when the frog reminded her of her promise. (COMFORT)",
+      "variante": [
+        "uncomfortable",
+        "discomfortable",
+        "incomfortable",
+        "uncomfortful"
+      ],
+      "corect": 0,
+      "explicatie": "un- + comfort + -able. ('Discomfort' is a noun, but 'discomfortable' does not exist.)"
+    },
+    {
+      "id": "wf-b2-15",
+      "intrebare": "The witch's ______ to eat the children horrified Gretel. (INTEND)",
+      "variante": [
+        "intention",
+        "intendation",
+        "intentment",
+        "intendure"
+      ],
+      "corect": 0,
+      "explicatie": "intend → intention: the -d- changes to -t- before -ion."
+    },
+    {
+      "id": "wf-b2-16",
+      "intrebare": "The emperor's new clothes were, of course, completely ______. (VISIBLE)",
+      "variante": [
+        "invisible",
+        "unvisible",
+        "disvisible",
+        "imvisible"
+      ],
+      "corect": 0,
+      "explicatie": "'Visible' takes the prefix in-: invisible."
+    },
+    {
+      "id": "wf-b2-17",
+      "intrebare": "The whole kingdom celebrated the princess's ______ to the prince. (MARRY)",
+      "variante": [
+        "marriage",
+        "marryment",
+        "marriance",
+        "marrition"
+      ],
+      "corect": 0,
+      "explicatie": "marry → marriage: -y changes to -i- before -age."
+    },
+    {
+      "id": "wf-b2-18",
+      "intrebare": "The dwarfs were ______ when they found Snow White asleep in one of their beds. (AMAZE)",
+      "variante": [
+        "amazed",
+        "amazing",
+        "amazement",
+        "amazable"
+      ],
+      "corect": 0,
+      "explicatie": "-ed adjectives describe how a person feels; -ing adjectives describe what causes the feeling."
+    },
+    {
+      "id": "wf-b2-19",
+      "intrebare": "The story of the Ugly Duckling has a rather ______ ending. (EXPECT)",
+      "variante": [
+        "unexpected",
+        "inexpected",
+        "disexpected",
+        "unexpecting"
+      ],
+      "corect": 0,
+      "explicatie": "un- + expected: 'not expected' (it describes the ending, so the -ed form)."
+    },
+    {
+      "id": "wf-b2-20",
+      "intrebare": "Overnight, the beanstalk grew to an ______ height. (ORDINARY)",
+      "variante": [
+        "extraordinary",
+        "overordinary",
+        "disordinary",
+        "misordinary"
+      ],
+      "corect": 0,
+      "explicatie": "extra- (beyond) + ordinary = very unusual."
+    },
+    {
+      "id": "wf-b2-21",
+      "intrebare": "Little Red Riding Hood was ______ of the danger hiding in the woods. (AWARE)",
+      "variante": [
+        "unaware",
+        "disaware",
+        "inaware",
+        "misaware"
+      ],
+      "corect": 0,
+      "explicatie": "'Aware' takes the negative prefix un-."
+    },
+    {
+      "id": "wf-b2-22",
+      "intrebare": "The king promised a great reward for the ______ of the dragon. (DESTROY)",
+      "variante": [
+        "destruction",
+        "destroyment",
+        "destroyal",
+        "destroyance"
+      ],
+      "corect": 0,
+      "explicatie": "The noun from 'destroy' is irregular: destruction."
+    },
+    {
+      "id": "wf-b2-23",
+      "intrebare": "The wolf ______ the little pigs by pretending to be friendly. (LEAD)",
+      "variante": [
+        "misled",
+        "disled",
+        "outled",
+        "overled"
+      ],
+      "corect": 0,
+      "explicatie": "mis- means 'wrongly': mislead (past: misled) = make someone believe something false."
+    },
+    {
+      "id": "wf-b2-24",
+      "intrebare": "The poor shoemaker was ______ to pay his rent until the elves helped him. (ABLE)",
+      "variante": [
+        "unable",
+        "disable",
+        "inable",
+        "misable"
+      ],
+      "corect": 0,
+      "explicatie": "un- + able = not able. ('Disable' is a verb with a different meaning.)"
+    },
+    {
+      "id": "wf-b2-25",
+      "intrebare": "The fox's ______ fooled the Gingerbread Man. (CLEVER)",
+      "variante": [
+        "cleverness",
+        "cleverity",
+        "cleverment",
+        "cleverhood"
+      ],
+      "corect": 0,
+      "explicatie": "clever + -ness forms the noun."
+    },
+    {
+      "id": "wf-b2-26",
+      "intrebare": "At first the Beast's castle seemed ______, but it was full of magic. (INHABIT)",
+      "variante": [
+        "uninhabited",
+        "ininhabited",
+        "disinhabited",
+        "misinhabited"
+      ],
+      "corect": 0,
+      "explicatie": "un- + inhabited = with nobody living there."
+    },
+    {
+      "id": "wf-b2-27",
+      "intrebare": "The princess spent a ______ night because of the pea under her mattresses. (SLEEP)",
+      "variante": [
+        "sleepless",
+        "sleepful",
+        "dissleeping",
+        "sleepness"
+      ],
+      "corect": 0,
+      "explicatie": "-less means 'without': a sleepless night = a night without sleep."
+    },
+    {
+      "id": "wf-b2-28",
+      "intrebare": "Jack's mother was ______ when he exchanged the cow for some beans. (FURY)",
+      "variante": [
+        "furious",
+        "furyful",
+        "furied",
+        "furiable"
+      ],
+      "corect": 0,
+      "explicatie": "fury → furious: -y changes to -i- before -ous."
+    },
+    {
+      "id": "wf-b2-29",
+      "intrebare": "The little mermaid made a ______ decision to give up her voice. (DANGER)",
+      "variante": [
+        "dangerous",
+        "dangerful",
+        "dangery",
+        "endangered"
+      ],
+      "corect": 0,
+      "explicatie": "danger + -ous forms the adjective."
+    },
+    {
+      "id": "wf-b2-30",
+      "intrebare": "The magic porridge pot produced an ______ amount of porridge. (END)",
+      "variante": [
+        "endless",
+        "endful",
+        "unendable",
+        "ending"
+      ],
+      "corect": 0,
+      "explicatie": "-less means 'without': endless = without an end."
+    },
+    {
+      "id": "wf-b2-31",
+      "intrebare": "The golden goose brought its owner great ______. (HAPPY)",
+      "variante": [
+        "happiness",
+        "happyness",
+        "happiment",
+        "happihood"
+      ],
+      "corect": 0,
+      "explicatie": "happy → happiness: -y changes to -i- before -ness."
+    },
+    {
+      "id": "wf-b2-32",
+      "intrebare": "The stepmother's ______ towards Snow White grew stronger every day. (JEALOUS)",
+      "variante": [
+        "jealousy",
+        "jealosy",
+        "jealousity",
+        "jealousment"
+      ],
+      "corect": 0,
+      "explicatie": "jealous + -y forms the noun 'jealousy'."
+    },
+    {
+      "id": "wf-b2-33",
+      "intrebare": "Goldilocks ______ walked into the bears' house without knocking. (POLITE)",
+      "variante": [
+        "impolitely",
+        "unpolitely",
+        "dispolitely",
+        "impolite"
+      ],
+      "corect": 0,
+      "explicatie": "'Polite' takes im-; we need an adverb (-ly) to describe how she walked in."
+    },
+    {
+      "id": "wf-b2-34",
+      "intrebare": "The prince ______ the wicked spell with a kiss. (DO)",
+      "variante": [
+        "undid",
+        "misdid",
+        "disdid",
+        "outdid"
+      ],
+      "corect": 0,
+      "explicatie": "un- reverses an action: undo (past: undid) a spell = cancel it."
+    },
+    {
+      "id": "wf-b2-35",
+      "intrebare": "The ______ of the twelve dancing princesses every night puzzled the king. (APPEAR)",
+      "variante": [
+        "disappearance",
+        "unappearance",
+        "misappearance",
+        "disappearment"
+      ],
+      "corect": 0,
+      "explicatie": "dis- + appear + -ance: the act of disappearing."
+    },
+    {
+      "id": "wf-b2-36",
+      "intrebare": "The princess found the slimy frog rather ______. (ATTRACT)",
+      "variante": [
+        "unattractive",
+        "disattractive",
+        "inattractive",
+        "attractless"
+      ],
+      "corect": 0,
+      "explicatie": "un- + attract + -ive."
+    },
+    {
+      "id": "wf-b2-37",
+      "intrebare": "The tortoise's ______ helped him win the race against the hare. (PATIENT)",
+      "variante": [
+        "patience",
+        "patientship",
+        "patienthood",
+        "patientment"
+      ],
+      "corect": 0,
+      "explicatie": "Adjectives in -ent usually form nouns in -ence: patient → patience."
+    },
+    {
+      "id": "wf-b2-38",
+      "intrebare": "Aladdin's lamp had ______ powers. (MAGIC)",
+      "variante": [
+        "magical",
+        "magicful",
+        "magicous",
+        "magicly"
+      ],
+      "corect": 0,
+      "explicatie": "magic + -al forms the adjective 'magical'."
+    },
+    {
+      "id": "wf-b2-39",
+      "intrebare": "The giant fell asleep, and Jack escaped ______. (NOTICE)",
+      "variante": [
+        "unnoticed",
+        "disnoticed",
+        "innoticed",
+        "notless"
+      ],
+      "corect": 0,
+      "explicatie": "un- + noticed = without being noticed."
+    },
+    {
+      "id": "wf-b2-40",
+      "intrebare": "The ending of 'Cinderella' shows that ______ is always rewarded. (GOOD)",
+      "variante": [
+        "goodness",
+        "goodity",
+        "goodhood",
+        "goodment"
+      ],
+      "corect": 0,
+      "explicatie": "good + -ness forms the noun."
+    }
+  ]
+}

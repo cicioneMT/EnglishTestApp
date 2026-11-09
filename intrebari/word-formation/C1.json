@@ -1,0 +1,484 @@
+{
+  "intrebari": [
+    {
+      "id": "wf-c1-01",
+      "intrebare": "The miller's ______ claims about his daughter put her life in danger. (EXAGGERATE)",
+      "variante": [
+        "exaggerated",
+        "exaggerous",
+        "overexaggerate",
+        "exaggeratory"
+      ],
+      "corect": 0,
+      "explicatie": "The past participle works as an adjective: exaggerated claims = claims that make things seem bigger than they are."
+    },
+    {
+      "id": "wf-c1-02",
+      "intrebare": "The witch's spell left the brave prince utterly ______. (POWER)",
+      "variante": [
+        "powerless",
+        "dispowered",
+        "impowerful",
+        "powerlessly"
+      ],
+      "corect": 0,
+      "explicatie": "power + -less = without power; we need an adjective after 'left ... utterly'."
+    },
+    {
+      "id": "wf-c1-03",
+      "intrebare": "Snow White's stepmother was ______ jealous of her. (OBSESS)",
+      "variante": [
+        "obsessively",
+        "obsessful",
+        "obsessedly",
+        "obsessionful"
+      ],
+      "corect": 0,
+      "explicatie": "obsess → obsessive → obsessively (adverb modifying 'jealous')."
+    },
+    {
+      "id": "wf-c1-04",
+      "intrebare": "The prince's ______ eventually broke the enchantment. (PERSIST)",
+      "variante": [
+        "persistence",
+        "persistance",
+        "persistment",
+        "persistivity"
+      ],
+      "corect": 0,
+      "explicatie": "Spelling: persistent → persistence (with -ence, not -ance)."
+    },
+    {
+      "id": "wf-c1-05",
+      "intrebare": "The twelve princesses ______ their father every night by sneaking out to dance. (OBEY)",
+      "variante": [
+        "disobeyed",
+        "misobeyed",
+        "unobeyed",
+        "inobeyed"
+      ],
+      "corect": 0,
+      "explicatie": "'Obey' takes the negative prefix dis-."
+    },
+    {
+      "id": "wf-c1-06",
+      "intrebare": "Rapunzel's tower was ______: it had no door and no staircase. (ACCESS)",
+      "variante": [
+        "inaccessible",
+        "unaccessible",
+        "inaccessable",
+        "disaccessible"
+      ],
+      "corect": 0,
+      "explicatie": "in- + access + -ible. Note the spelling -ible."
+    },
+    {
+      "id": "wf-c1-07",
+      "intrebare": "Cinderella bore her stepmother's cruelty with ______ dignity. (FAIL)",
+      "variante": [
+        "unfailing",
+        "infailing",
+        "disfailing",
+        "unfailed"
+      ],
+      "corect": 0,
+      "explicatie": "unfailing = constant, never weakening."
+    },
+    {
+      "id": "wf-c1-08",
+      "intrebare": "The fairy warned that her gifts were ______: once given, they could not be taken back. (REVOKE)",
+      "variante": [
+        "irrevocable",
+        "unrevocable",
+        "irrevokable",
+        "disrevocable"
+      ],
+      "corect": 0,
+      "explicatie": "revoke → revocable (k becomes c); the negative prefix in- becomes ir- before 'r'."
+    },
+    {
+      "id": "wf-c1-09",
+      "intrebare": "The ugly duckling's ______ into a beautiful swan astonished everyone. (TRANSFORM)",
+      "variante": [
+        "transformation",
+        "transformance",
+        "transformity",
+        "transformment"
+      ],
+      "corect": 0,
+      "explicatie": "transform + -ation forms the noun."
+    },
+    {
+      "id": "wf-c1-10",
+      "intrebare": "The wolf's ______ of the grandmother was convincing enough to fool Little Red Riding Hood. (IMPERSONATE)",
+      "variante": [
+        "impersonation",
+        "impersonance",
+        "impersonment",
+        "impersonity"
+      ],
+      "corect": 0,
+      "explicatie": "Verbs ending in -ate form nouns in -ation."
+    },
+    {
+      "id": "wf-c1-11",
+      "intrebare": "The emperor refused to admit his ______ for fear of looking foolish. (IGNORE)",
+      "variante": [
+        "ignorance",
+        "ignorancy",
+        "ignorement",
+        "ignority"
+      ],
+      "corect": 0,
+      "explicatie": "ignore → ignorance (lack of knowledge)."
+    },
+    {
+      "id": "wf-c1-12",
+      "intrebare": "The Beast's terrible temper was almost ______. (CONTROL)",
+      "variante": [
+        "uncontrollable",
+        "incontrollable",
+        "discontrollable",
+        "uncontrolable"
+      ],
+      "corect": 0,
+      "explicatie": "Spelling: the final -l is doubled before -able: control → controllable."
+    },
+    {
+      "id": "wf-c1-13",
+      "intrebare": "The tailor was ______ proud of killing 'seven at one blow'. (REASON)",
+      "variante": [
+        "unreasonably",
+        "inreasonably",
+        "disreasonably",
+        "unreasonablely"
+      ],
+      "corect": 0,
+      "explicatie": "un- + reason + -able + -ly; -able becomes -ably in the adverb."
+    },
+    {
+      "id": "wf-c1-14",
+      "intrebare": "The hare's ______ cost him the race. (CONFIDENT)",
+      "variante": [
+        "overconfidence",
+        "outconfidence",
+        "overconfidency",
+        "misconfidence"
+      ],
+      "corect": 0,
+      "explicatie": "over- means 'too much': overconfidence = too much confidence."
+    },
+    {
+      "id": "wf-c1-15",
+      "intrebare": "The dwarfs ______ the danger posed by the old pedlar woman. (ESTIMATE)",
+      "variante": [
+        "underestimated",
+        "downestimated",
+        "lessestimated",
+        "subestimated"
+      ],
+      "corect": 0,
+      "explicatie": "under- means 'too little': underestimate = think something is less serious than it is."
+    },
+    {
+      "id": "wf-c1-16",
+      "intrebare": "Selling the cow for a handful of beans was ______ foolish, or so Jack's mother thought. (DENY)",
+      "variante": [
+        "undeniably",
+        "indeniably",
+        "disdeniably",
+        "undeniabley"
+      ],
+      "corect": 0,
+      "explicatie": "un- + deny + -able + -ly: -y changes to -i- (deniable)."
+    },
+    {
+      "id": "wf-c1-17",
+      "intrebare": "The prince's ______ to find Cinderella showed his true devotion. (DETERMINE)",
+      "variante": [
+        "determination",
+        "determinance",
+        "determinity",
+        "determinement"
+      ],
+      "corect": 0,
+      "explicatie": "determine + -ation (the final -e is dropped)."
+    },
+    {
+      "id": "wf-c1-18",
+      "intrebare": "The king could not ______ between the real bride and the false one. (DIFFERENT)",
+      "variante": [
+        "differentiate",
+        "differentise",
+        "differentify",
+        "indifferent"
+      ],
+      "corect": 0,
+      "explicatie": "different + -iate forms the verb 'differentiate' (to see the difference)."
+    },
+    {
+      "id": "wf-c1-19",
+      "intrebare": "Far from being worthless, the magic beans proved to be ______. (PRICE)",
+      "variante": [
+        "priceless",
+        "priceful",
+        "dispriced",
+        "unpriceable"
+      ],
+      "corect": 0,
+      "explicatie": "Here -less is a paradox: priceless = so valuable that no price could be put on it."
+    },
+    {
+      "id": "wf-c1-20",
+      "intrebare": "The stepsisters' behaviour at the ball was utterly ______. (EXCUSE)",
+      "variante": [
+        "inexcusable",
+        "unexcusable",
+        "disexcusable",
+        "inexcuseable"
+      ],
+      "corect": 0,
+      "explicatie": "in- + excuse + -able (the final -e is dropped)."
+    },
+    {
+      "id": "wf-c1-21",
+      "intrebare": "The huntsman ______ spared Snow White's life. (MERCY)",
+      "variante": [
+        "mercifully",
+        "mercyfully",
+        "mercilessly",
+        "merciably"
+      ],
+      "corect": 0,
+      "explicatie": "mercy → merciful → mercifully; 'mercilessly' would mean the opposite."
+    },
+    {
+      "id": "wf-c1-22",
+      "intrebare": "Rumpelstiltskin's demand for the queen's firstborn child was ______. (CONSCIENCE)",
+      "variante": [
+        "unconscionable",
+        "inconscionable",
+        "disconscionable",
+        "unconsciencable"
+      ],
+      "corect": 0,
+      "explicatie": "unconscionable = so unfair or cruel that it should not be allowed."
+    },
+    {
+      "id": "wf-c1-23",
+      "intrebare": "The fisherman's wife was never content; her ______ grew with every wish. (SATISFY)",
+      "variante": [
+        "dissatisfaction",
+        "unsatisfaction",
+        "missatisfaction",
+        "dissatisfiction"
+      ],
+      "corect": 0,
+      "explicatie": "dis- + satisfy + -action: -y changes to -a- in 'satisfaction'."
+    },
+    {
+      "id": "wf-c1-24",
+      "intrebare": "The prince ______ a perilous journey through the thorny forest. (TAKE)",
+      "variante": [
+        "undertook",
+        "overtook",
+        "outtook",
+        "mistook"
+      ],
+      "corect": 0,
+      "explicatie": "undertake (past: undertook) = begin a task or journey. 'Overtook' and 'mistook' have different meanings."
+    },
+    {
+      "id": "wf-c1-25",
+      "intrebare": "The old woman's apples looked perfectly ______, but they were poisoned. (HARM)",
+      "variante": [
+        "harmless",
+        "unharmful",
+        "harmlessly",
+        "inharmful"
+      ],
+      "corect": 0,
+      "explicatie": "harm + -less = not able to cause harm; an adjective is needed after 'looked'."
+    },
+    {
+      "id": "wf-c1-26",
+      "intrebare": "The parents' ______ of Hansel and Gretel is one of the darkest moments in the tale. (ABANDON)",
+      "variante": [
+        "abandonment",
+        "abandonation",
+        "abandonance",
+        "abandonity"
+      ],
+      "corect": 0,
+      "explicatie": "abandon + -ment forms the noun."
+    },
+    {
+      "id": "wf-c1-27",
+      "intrebare": "Beauty's initial ______ of the Beast slowly turned into love. (LIKE)",
+      "variante": [
+        "dislike",
+        "unliking",
+        "inlike",
+        "antilike"
+      ],
+      "corect": 0,
+      "explicatie": "dis- + like: a noun meaning a feeling of not liking someone."
+    },
+    {
+      "id": "wf-c1-28",
+      "intrebare": "Although the wicked fairy was ______ by the good fairies, her curse could not be undone. (NUMBER)",
+      "variante": [
+        "outnumbered",
+        "overnumbered",
+        "misnumbered",
+        "unnumbered"
+      ],
+      "corect": 0,
+      "explicatie": "out- means 'more than': outnumbered = the others were more numerous."
+    },
+    {
+      "id": "wf-c1-29",
+      "intrebare": "The frog's ______ surprised the princess, who had never heard an animal speak. (TALK)",
+      "variante": [
+        "talkativeness",
+        "talkativity",
+        "talkingness",
+        "talkment"
+      ],
+      "corect": 0,
+      "explicatie": "talk → talkative → talkativeness."
+    },
+    {
+      "id": "wf-c1-30",
+      "intrebare": "Pinocchio's nose grew whenever he told an ______. (TRUE)",
+      "variante": [
+        "untruth",
+        "intruth",
+        "distruth",
+        "untrueness"
+      ],
+      "corect": 0,
+      "explicatie": "true → truth (noun) → untruth = a lie."
+    },
+    {
+      "id": "wf-c1-31",
+      "intrebare": "The princess's extraordinary ______ to a single pea proved that she was a real princess. (SENSE)",
+      "variante": [
+        "sensitivity",
+        "sensitivety",
+        "sensivity",
+        "senseness"
+      ],
+      "corect": 0,
+      "explicatie": "sense → sensitive → sensitivity."
+    },
+    {
+      "id": "wf-c1-32",
+      "intrebare": "Bluebeard's wife opened the forbidden door out of ______. (CURIOUS)",
+      "variante": [
+        "curiosity",
+        "curiousity",
+        "curiosness",
+        "curiosement"
+      ],
+      "corect": 0,
+      "explicatie": "Spelling: curious → curiosity (the -u- disappears)."
+    },
+    {
+      "id": "wf-c1-33",
+      "intrebare": "Gretel ______ the witch by pretending not to understand how to check the oven. (WIT)",
+      "variante": [
+        "outwitted",
+        "overwitted",
+        "miswitted",
+        "unwitted"
+      ],
+      "corect": 0,
+      "explicatie": "outwit = defeat someone by being cleverer; the final -t is doubled: outwitted."
+    },
+    {
+      "id": "wf-c1-34",
+      "intrebare": "The whole castle fell into a deep, ______ sleep. (BREAK)",
+      "variante": [
+        "unbreakable",
+        "inbreakable",
+        "disbreakable",
+        "unbreakible"
+      ],
+      "corect": 0,
+      "explicatie": "un- + break + -able."
+    },
+    {
+      "id": "wf-c1-35",
+      "intrebare": "The queen's attempts to kill Snow White were ultimately ______. (SUCCESS)",
+      "variante": [
+        "unsuccessful",
+        "insuccessful",
+        "dissuccessful",
+        "successless"
+      ],
+      "corect": 0,
+      "explicatie": "un- + success + -ful."
+    },
+    {
+      "id": "wf-c1-36",
+      "intrebare": "Out of fear, the courtiers praised the emperor's ______ clothes. (EXIST)",
+      "variante": [
+        "non-existent",
+        "unexistent",
+        "disexistent",
+        "non-existant"
+      ],
+      "corect": 0,
+      "explicatie": "non- + existent; note the spelling -ent."
+    },
+    {
+      "id": "wf-c1-37",
+      "intrebare": "The tin soldier remained ______ loyal to the paper ballerina. (WAVER)",
+      "variante": [
+        "unwaveringly",
+        "inwaveringly",
+        "diswaveringly",
+        "unwaveringlly"
+      ],
+      "corect": 0,
+      "explicatie": "un- + wavering + -ly: never changing, firm."
+    },
+    {
+      "id": "wf-c1-38",
+      "intrebare": "Beauty was ______ when the Beast turned into a handsome prince. (SPEAK)",
+      "variante": [
+        "speechless",
+        "speakless",
+        "unspeakable",
+        "speechlessly"
+      ],
+      "corect": 0,
+      "explicatie": "speak → speech (noun) → speechless = unable to speak from surprise."
+    },
+    {
+      "id": "wf-c1-39",
+      "intrebare": "The cruel stepmother showed no sign of ______. (REPENT)",
+      "variante": [
+        "repentance",
+        "repentment",
+        "repentation",
+        "repentence"
+      ],
+      "corect": 0,
+      "explicatie": "repent + -ance. Note the spelling: repentance."
+    },
+    {
+      "id": "wf-c1-40",
+      "intrebare": "The fairy's ______ prediction came true on the princess's sixteenth birthday. (OMEN)",
+      "variante": [
+        "ominous",
+        "omenous",
+        "omenful",
+        "omenic"
+      ],
+      "corect": 0,
+      "explicatie": "omen → ominous (spelling change -en- → -in-): suggesting that something bad will happen."
+    }
+  ]
+}

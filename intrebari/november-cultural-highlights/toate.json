@@ -1,0 +1,484 @@
+{
+  "intrebari": [
+    {
+      "id": "cult-01",
+      "intrebare": "Which saint's day, Scotland's national day, is celebrated on 30 November?",
+      "variante": [
+        "St Andrew's Day",
+        "St David's Day",
+        "St Patrick's Day",
+        "St George's Day"
+      ],
+      "corect": 0,
+      "explicatie": "St Andrew is the patron saint of Scotland. St David is Welsh, St Patrick Irish, St George English."
+    },
+    {
+      "id": "cult-02",
+      "intrebare": "Scotland's flag, the Saltire, shows St Andrew's cross. What does it look like?",
+      "variante": [
+        "a white diagonal cross on a blue background",
+        "a red cross on a white background",
+        "a red diagonal cross on a white background",
+        "a yellow cross on a black background"
+      ],
+      "corect": 0,
+      "explicatie": "According to tradition, St Andrew was crucified on an X-shaped cross."
+    },
+    {
+      "id": "cult-03",
+      "intrebare": "Since 2007, St Andrew's Day has officially been a ______ in Scotland.",
+      "variante": [
+        "bank holiday",
+        "tax day",
+        "election day",
+        "exam day"
+      ],
+      "corect": 0,
+      "explicatie": "The St Andrew's Day Bank Holiday (Scotland) Act was passed in 2007."
+    },
+    {
+      "id": "cult-04",
+      "intrebare": "Which Scottish dish, made from sheep's offal, oatmeal and spices, is often served at St Andrew's Day celebrations?",
+      "variante": [
+        "haggis",
+        "shepherd's pie",
+        "Cornish pasty",
+        "Welsh rarebit"
+      ],
+      "corect": 0,
+      "explicatie": "Haggis is Scotland's best-known national dish."
+    },
+    {
+      "id": "cult-05",
+      "intrebare": "Complete the traditional rhyme: 'Remember, remember, the fifth of November, gunpowder, treason and ______.'",
+      "variante": [
+        "plot",
+        "fire",
+        "king",
+        "night"
+      ],
+      "corect": 0,
+      "explicatie": "The rhyme recalls the Gunpowder Plot of 1605."
+    },
+    {
+      "id": "cult-06",
+      "intrebare": "What is traditionally burned on top of bonfires on 5 November?",
+      "variante": [
+        "a 'guy' — a figure of Guy Fawkes",
+        "a Christmas tree",
+        "an old boat",
+        "a straw king"
+      ],
+      "corect": 0,
+      "explicatie": "The effigy is called a 'guy', after Guy Fawkes."
+    },
+    {
+      "id": "cult-07",
+      "intrebare": "What did children traditionally ask passers-by for in the days before Bonfire Night?",
+      "variante": [
+        "'a penny for the guy'",
+        "'trick or treat'",
+        "'sweets for the saint'",
+        "'a coin for the king'"
+      ],
+      "corect": 0,
+      "explicatie": "Children showed the guy they had made and collected money for fireworks."
+    },
+    {
+      "id": "cult-08",
+      "intrebare": "Bonfires were first lit in London in November 1605 to celebrate...",
+      "variante": [
+        "the king's survival",
+        "the end of a war",
+        "a royal wedding",
+        "the harvest"
+      ],
+      "corect": 0,
+      "explicatie": "Londoners lit bonfires to celebrate that James I had survived the plot."
+    },
+    {
+      "id": "cult-09",
+      "intrebare": "The informal English word 'guy' (meaning 'man') comes from...",
+      "variante": [
+        "Guy Fawkes",
+        "a French king",
+        "a Viking warrior",
+        "a Shakespeare character"
+      ],
+      "corect": 0,
+      "explicatie": "First it meant a strangely dressed person (like the effigy), then simply 'a man'."
+    },
+    {
+      "id": "cult-10",
+      "intrebare": "In parts of northern England, 4 November — the night before Bonfire Night — is traditionally known as...",
+      "variante": [
+        "Mischief Night",
+        "Twelfth Night",
+        "Burns Night",
+        "Shrove Tuesday"
+      ],
+      "corect": 0,
+      "explicatie": "On Mischief Night, children traditionally played harmless pranks."
+    },
+    {
+      "id": "cult-11",
+      "intrebare": "Which sticky ginger cake made with oatmeal and treacle is traditionally eaten on Bonfire Night, especially in Yorkshire?",
+      "variante": [
+        "parkin",
+        "Bakewell tart",
+        "Eccles cake",
+        "Victoria sponge"
+      ],
+      "corect": 0,
+      "explicatie": "Parkin is often baked days in advance because it gets stickier with time."
+    },
+    {
+      "id": "cult-12",
+      "intrebare": "Bonfire toffee, eaten on 5 November in northern England, is made mainly with...",
+      "variante": [
+        "black treacle",
+        "honey",
+        "maple syrup",
+        "chocolate"
+      ],
+      "corect": 0,
+      "explicatie": "Its dark colour and strong taste come from black treacle."
+    },
+    {
+      "id": "cult-13",
+      "intrebare": "Which town in East Sussex is famous for its huge Bonfire Night processions organised by local bonfire societies?",
+      "variante": [
+        "Lewes",
+        "Brighton",
+        "Eastbourne",
+        "Hastings"
+      ],
+      "corect": 0,
+      "explicatie": "Lewes holds the largest Bonfire Night celebrations in the UK."
+    },
+    {
+      "id": "cult-14",
+      "intrebare": "In Ottery St Mary, Devon, people celebrate 5 November by running through the streets carrying...",
+      "variante": [
+        "burning tar barrels",
+        "paper lanterns",
+        "giant puppets",
+        "church bells"
+      ],
+      "corect": 0,
+      "explicatie": "The Tar Barrels tradition is centuries old."
+    },
+    {
+      "id": "cult-15",
+      "intrebare": "Because of the Gunpowder Plot, before every State Opening of Parliament the cellars of the Palace of Westminster are ceremonially searched by...",
+      "variante": [
+        "the Yeomen of the Guard",
+        "the Household Cavalry",
+        "the Coldstream Guards",
+        "the Royal Navy"
+      ],
+      "corect": 0,
+      "explicatie": "The ceremonial search has taken place for centuries."
+    },
+    {
+      "id": "cult-16",
+      "intrebare": "Which Christian festival is celebrated on 1 November?",
+      "variante": [
+        "All Saints' Day",
+        "All Souls' Day",
+        "St Andrew's Day",
+        "Candlemas"
+      ],
+      "corect": 0,
+      "explicatie": "All Saints' Day is 1 November; All Souls' Day follows on 2 November."
+    },
+    {
+      "id": "cult-17",
+      "intrebare": "In the old farming calendar, 11 November is the feast of St Martin, also known as...",
+      "variante": [
+        "Martinmas",
+        "Michaelmas",
+        "Candlemas",
+        "Lammas"
+      ],
+      "corect": 0,
+      "explicatie": "Martinmas was a traditional time for hiring fairs and preparing food for winter."
+    },
+    {
+      "id": "cult-18",
+      "intrebare": "What is the main symbol of Remembrance in the UK each November?",
+      "variante": [
+        "the red poppy",
+        "the white rose",
+        "the daffodil",
+        "the thistle"
+      ],
+      "corect": 0,
+      "explicatie": "Poppies grew on the battlefields of Flanders in the First World War."
+    },
+    {
+      "id": "cult-19",
+      "intrebare": "The poppy became a symbol of remembrance partly thanks to the poem 'In Flanders Fields', written in 1915 by...",
+      "variante": [
+        "John McCrae",
+        "Wilfred Owen",
+        "Rupert Brooke",
+        "Siegfried Sassoon"
+      ],
+      "corect": 0,
+      "explicatie": "John McCrae was a Canadian army doctor."
+    },
+    {
+      "id": "cult-20",
+      "intrebare": "Which charity runs the annual Poppy Appeal in the UK?",
+      "variante": [
+        "the Royal British Legion",
+        "the Red Cross",
+        "Oxfam",
+        "the RSPCA"
+      ],
+      "corect": 0,
+      "explicatie": "The money raised supports members of the armed forces, veterans and their families."
+    },
+    {
+      "id": "cult-21",
+      "intrebare": "How is the Scottish remembrance poppy different from the one sold in England?",
+      "variante": [
+        "it has four petals and no leaf",
+        "it is white",
+        "it is blue",
+        "it has a thistle in the centre"
+      ],
+      "corect": 0,
+      "explicatie": "The English poppy has two petals and a green leaf."
+    },
+    {
+      "id": "cult-22",
+      "intrebare": "Some people wear a white poppy in November. What does it represent?",
+      "variante": [
+        "peace, and remembering all victims of war",
+        "animals that died in war",
+        "victory in war",
+        "the royal family"
+      ],
+      "corect": 0,
+      "explicatie": "The purple poppy is the one that remembers animals."
+    },
+    {
+      "id": "cult-23",
+      "intrebare": "Remembrance Sunday is held on...",
+      "variante": [
+        "the second Sunday in November",
+        "the first Sunday in November",
+        "the last Sunday in November",
+        "11 November every year"
+      ],
+      "corect": 0,
+      "explicatie": "Armistice Day is always 11 November; Remembrance Sunday is the second Sunday of the month."
+    },
+    {
+      "id": "cult-24",
+      "intrebare": "Where does the national Remembrance Sunday ceremony take place?",
+      "variante": [
+        "at the Cenotaph in Whitehall",
+        "in Trafalgar Square",
+        "at Buckingham Palace",
+        "in Hyde Park"
+      ],
+      "corect": 0,
+      "explicatie": "The ceremony is broadcast live on national television."
+    },
+    {
+      "id": "cult-25",
+      "intrebare": "Who traditionally lays the first wreath at the Cenotaph on Remembrance Sunday?",
+      "variante": [
+        "the monarch",
+        "the Prime Minister",
+        "the Mayor of London",
+        "the Archbishop of Canterbury"
+      ],
+      "corect": 0,
+      "explicatie": "The monarch lays the first wreath, followed by other members of the royal family and political leaders."
+    },
+    {
+      "id": "cult-26",
+      "intrebare": "Which bugle call is played at Remembrance ceremonies just before the two-minute silence?",
+      "variante": [
+        "the Last Post",
+        "Reveille",
+        "God Save the King",
+        "Rule, Britannia!"
+      ],
+      "corect": 0,
+      "explicatie": "The Last Post is followed by the silence and then by Reveille."
+    },
+    {
+      "id": "cult-27",
+      "intrebare": "The lines 'They shall grow not old, as we that are left grow old' are read at Remembrance services. Who wrote them?",
+      "variante": [
+        "Laurence Binyon",
+        "John McCrae",
+        "Wilfred Owen",
+        "Rudyard Kipling"
+      ],
+      "corect": 0,
+      "explicatie": "They come from Binyon's poem 'For the Fallen' (1914)."
+    },
+    {
+      "id": "cult-28",
+      "intrebare": "The Royal British Legion's Festival of Remembrance is held each November at which London venue?",
+      "variante": [
+        "the Royal Albert Hall",
+        "the O2 Arena",
+        "Wembley Stadium",
+        "the Barbican"
+      ],
+      "corect": 0,
+      "explicatie": "It takes place on the Saturday before Remembrance Sunday."
+    },
+    {
+      "id": "cult-29",
+      "intrebare": "The Armistice took effect at the eleventh hour of the eleventh day of the ______ month.",
+      "variante": [
+        "eleventh",
+        "tenth",
+        "twelfth",
+        "first"
+      ],
+      "corect": 0,
+      "explicatie": "November is the eleventh month of the year."
+    },
+    {
+      "id": "cult-30",
+      "intrebare": "Which British TV series was first broadcast on 23 November 1963?",
+      "variante": [
+        "Doctor Who",
+        "Coronation Street",
+        "Blue Peter",
+        "Top of the Pops"
+      ],
+      "corect": 0,
+      "explicatie": "Doctor Who is one of the longest-running science fiction series in the world."
+    },
+    {
+      "id": "cult-31",
+      "intrebare": "In Doctor Who, the Doctor's time machine, the TARDIS, looks like a...",
+      "variante": [
+        "blue police box",
+        "red telephone box",
+        "London bus",
+        "post box"
+      ],
+      "corect": 0,
+      "explicatie": "TARDIS stands for 'Time And Relative Dimension In Space'."
+    },
+    {
+      "id": "cult-32",
+      "intrebare": "Which actor played the first Doctor in Doctor Who, starting in November 1963?",
+      "variante": [
+        "William Hartnell",
+        "Patrick Troughton",
+        "Tom Baker",
+        "David Tennant"
+      ],
+      "corect": 0,
+      "explicatie": "Hartnell played the role from 1963 to 1966."
+    },
+    {
+      "id": "cult-33",
+      "intrebare": "Which Agatha Christie play opened in London's West End on 25 November 1952 and became the world's longest-running play?",
+      "variante": [
+        "The Mousetrap",
+        "Murder on the Orient Express",
+        "Death on the Nile",
+        "And Then There Were None"
+      ],
+      "corect": 0,
+      "explicatie": "Apart from a break during the COVID-19 pandemic, it has run continuously since 1952."
+    },
+    {
+      "id": "cult-34",
+      "intrebare": "What is the name of the yellow bear with a spotty bandage over one eye who is the mascot of the BBC's Children in Need appeal?",
+      "variante": [
+        "Pudsey",
+        "Paddington",
+        "Rupert",
+        "Winnie"
+      ],
+      "corect": 0,
+      "explicatie": "Children in Need holds its big fundraising TV evening every November."
+    },
+    {
+      "id": "cult-35",
+      "intrebare": "During 'Movember', many men raise money for men's health by...",
+      "variante": [
+        "growing a moustache",
+        "shaving their heads",
+        "running a marathon",
+        "wearing pyjamas to work"
+      ],
+      "corect": 0,
+      "explicatie": "The name combines 'moustache' and 'November'."
+    },
+    {
+      "id": "cult-36",
+      "intrebare": "Which English city is famous for one of the biggest Diwali celebrations outside India?",
+      "variante": [
+        "Leicester",
+        "Bath",
+        "York",
+        "Norwich"
+      ],
+      "corect": 0,
+      "explicatie": "Diwali, the Festival of Lights, usually falls in October or November."
+    },
+    {
+      "id": "cult-37",
+      "intrebare": "Stir-up Sunday, the last Sunday before Advent (usually in late November), is the traditional day for making...",
+      "variante": [
+        "Christmas pudding",
+        "hot cross buns",
+        "pancakes",
+        "simnel cake"
+      ],
+      "corect": 0,
+      "explicatie": "Family members take turns stirring the mixture and making a wish."
+    },
+    {
+      "id": "cult-38",
+      "intrebare": "Which annual procession takes place in the City of London in November, when the new Lord Mayor travels in a golden coach?",
+      "variante": [
+        "the Lord Mayor's Show",
+        "Trooping the Colour",
+        "the Changing of the Guard",
+        "the Notting Hill Carnival"
+      ],
+      "corect": 0,
+      "explicatie": "The Lord Mayor's Show dates back more than 800 years."
+    },
+    {
+      "id": "cult-39",
+      "intrebare": "In many UK towns and cities, November is the month when crowds gather for the...",
+      "variante": [
+        "Christmas lights switch-on",
+        "maypole dancing",
+        "pancake races",
+        "Easter egg hunts"
+      ],
+      "corect": 0,
+      "explicatie": "Famous celebrities are often invited to switch on the lights."
+    },
+    {
+      "id": "cult-40",
+      "intrebare": "Bonfire Night is also widely known as...",
+      "variante": [
+        "Guy Fawkes Night",
+        "Burns Night",
+        "Twelfth Night",
+        "Hallowe'en"
+      ],
+      "corect": 0,
+      "explicatie": "Burns Night (25 January) celebrates the poet Robert Burns."
+    }
+  ]
+}
