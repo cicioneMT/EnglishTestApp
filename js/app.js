@@ -17,6 +17,7 @@
   let termen = 0;          // momentul în care expiră întrebarea curentă
   let cronometru = null;
   let bancaTema = [];      // toate întrebările temei alese
+  let temaMeta = {};       // conținutul tema.json (scene, „Useful language”)
 
   // ---------- stocare (protejată, poate lipsi) ----------
   const stocare = {
@@ -121,8 +122,10 @@
       const banca = await Common.incarcaIntrebari(t.id, fisier);
       stare.tema = { id: t.id, titlu: t.titlu, fisier };
       bancaTema = banca;
+      temaMeta = await Common.incarcaJSON(`intrebari/${t.id}/tema.json`).catch(() => ({}));
       $("titlu-tema-instr").textContent = t.titlu;
-      $("nr-intrebari-banca").textContent = banca.length;
+      const n = banca.length;
+      $("nr-intrebari-banca").textContent = n + (n % 100 >= 20 || (n >= 100 && n % 100 === 0) ? " de întrebări" : " întrebări");
       $("nr-intrebari").textContent = Math.min(CONFIG.intrebariPeTest, banca.length);
       $("nr-secunde").textContent = CONFIG.secundePeIntrebare;
       arata("ecran-instructiuni");
@@ -409,8 +412,26 @@
     selectie: null,
   };
 
+  // Pentru temele cu scene: întrebările aceleiași imagini stau împreună
+  function ordoneazaInvatare(lista) {
+    if (!temaMeta.grupatPeScene || !lista.some((q) => q.scena)) return amesteca(lista);
+    const grupuri = {};
+    lista.forEach((q) => (grupuri[q.scena || ""] ||= []).push(q));
+    return amesteca(Object.keys(grupuri)).flatMap((k) =>
+      amesteca(grupuri[k]).sort((a, b) => (a.imagine || "").localeCompare(b.imagine || ""))
+    );
+  }
+
+  function infoScena(q) {
+    const sc = q && q.scena && temaMeta.scene && temaMeta.scene[q.scena];
+    if (!sc) return null;
+    let limbaj = sc.limbaj || [];
+    if (!Array.isArray(limbaj)) limbaj = limbaj[stare.tema.fisier] || limbaj.toate || [];
+    return { titlu: sc.titlu || q.scena, limbaj };
+  }
+
   function pornesteInvatare(lista, runda) {
-    inv.lista = amesteca(lista);
+    inv.lista = ordoneazaInvatare(lista);
     inv.ordini = inv.lista.map(() => amesteca([0, 1, 2, 3]));
     inv.i = 0;
     inv.corecte = 0;
@@ -432,6 +453,9 @@
     const runda = $("inv-runda");
     runda.hidden = inv.runda === 1;
     runda.textContent = `Runda ${inv.runda}: exersezi doar întrebările greșite`;
+    const sc = infoScena(q);
+    $("inv-scena").hidden = !sc;
+    $("inv-scena").textContent = sc ? "Scena: " + sc.titlu : "";
 
     const img = $("inv-imagine");
     img.hidden = !q.imagine;
@@ -461,6 +485,7 @@
     box.classList.remove("blocat");
 
     $("inv-feedback").hidden = true;
+    document.querySelectorAll("#ecran-invatare .useful").forEach((x) => x.remove());
     $("inv-valideaza").hidden = false;
     $("inv-valideaza").disabled = true;
     $("inv-urmatoarea").hidden = true;
@@ -491,6 +516,18 @@
       ${corect ? "" : `<p>Răspunsul corect este: <strong>${esc(q.variante[q.corect])}</strong></p>`}
       ${q.explicatie ? `<p class="feedback-expl"><strong>De ce?</strong> ${esc(q.explicatie)}</p>` : ""}`;
     fb.hidden = false;
+
+    // La ultima întrebare a unei scene: caseta „Useful language”
+    const sc = infoScena(q);
+    const urmatoarea = inv.lista[inv.i + 1];
+    if (sc && sc.limbaj.length && (!urmatoarea || urmatoarea.scena !== q.scena)) {
+      const ul = document.createElement("div");
+      ul.className = "useful";
+      ul.innerHTML = `<p class="useful-titlu">Useful language · ${esc(sc.titlu)}</p>
+        <p class="useful-sub">Folosește aceste expresii când descrii imaginea:</p>
+        <ul>${sc.limbaj.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>`;
+      fb.after(ul);
+    }
 
     $("inv-scor").textContent = `✓ ${inv.corecte} din ${inv.raspunse}`;
     $("inv-valideaza").hidden = true;

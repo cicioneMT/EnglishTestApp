@@ -1,0 +1,564 @@
+{
+  "intrebari": [
+    {
+      "id": "ps-c1-cafe-1",
+      "scena": "cafe",
+      "imagine": "imagini/cafe-1.svg",
+      "intrebare": "Judging by her expression, the woman has some ______ gossip to share.",
+      "variante": [
+        "juicy",
+        "succulent",
+        "ripe",
+        "tasty"
+      ],
+      "corect": 0,
+      "explicatie": "juicy gossip = interesting, often shocking information about other people."
+    },
+    {
+      "id": "ps-c1-cafe-2",
+      "scena": "cafe",
+      "imagine": "imagini/cafe-1.svg",
+      "intrebare": "'You'll never guess what happened!' is a phrase typically used to ______.",
+      "variante": [
+        "introduce surprising news",
+        "end a conversation",
+        "apologise to someone",
+        "change the subject politely"
+      ],
+      "corect": 0,
+      "explicatie": "This fixed phrase prepares the listener for something surprising."
+    },
+    {
+      "id": "ps-c1-cafe-3",
+      "scena": "cafe",
+      "imagine": "imagini/cafe-1.svg",
+      "intrebare": "The two friends talk so easily that there is never a ______ in the conversation.",
+      "variante": [
+        "lull",
+        "slump",
+        "drought",
+        "stall"
+      ],
+      "corect": 0,
+      "explicatie": "a lull in the conversation = a short period when nobody speaks."
+    },
+    {
+      "id": "ps-c1-cafe-4",
+      "scena": "cafe",
+      "imagine": "imagini/cafe-1.svg",
+      "intrebare": "The croissants and cakes are ______ prepared every morning.",
+      "variante": [
+        "freshly",
+        "brightly",
+        "lately",
+        "recently"
+      ],
+      "corect": 0,
+      "explicatie": "freshly prepared = made only a short time ago."
+    },
+    {
+      "id": "ps-c1-cafe-5",
+      "scena": "cafe",
+      "imagine": "imagini/cafe-1.svg",
+      "intrebare": "Before sitting down, the friends hugged and exchanged ______.",
+      "variante": [
+        "greetings",
+        "salutes",
+        "receptions",
+        "welcomings"
+      ],
+      "corect": 0,
+      "explicatie": "exchange greetings = say hello to each other."
+    },
+    {
+      "id": "ps-c1-cafe-6",
+      "scena": "cafe",
+      "imagine": "imagini/cafe-2.svg",
+      "intrebare": "The story was so funny that it had them both ______.",
+      "variante": [
+        "in stitches",
+        "in pieces",
+        "in seams",
+        "in patches"
+      ],
+      "corect": 0,
+      "explicatie": "Idiom: have someone in stitches = make someone laugh a lot."
+    },
+    {
+      "id": "ps-c1-cafe-7",
+      "scena": "cafe",
+      "imagine": "imagini/cafe-2.svg",
+      "intrebare": "The waiter clearly has a cheerful, ______ personality.",
+      "variante": [
+        "outgoing",
+        "outgone",
+        "outward",
+        "outlying"
+      ],
+      "corect": 0,
+      "explicatie": "An outgoing personality is friendly and sociable."
+    },
+    {
+      "id": "ps-c1-cafe-8",
+      "scena": "cafe",
+      "imagine": "imagini/cafe-2.svg",
+      "intrebare": "The woman insists on paying the bill: 'Put your money away — ______!'",
+      "variante": [
+        "it's my treat",
+        "it's my gift",
+        "it's my present",
+        "it's my offer"
+      ],
+      "corect": 0,
+      "explicatie": "Fixed phrase: It's my treat = I'm paying for this."
+    },
+    {
+      "id": "ps-c1-airport-1",
+      "scena": "airport",
+      "imagine": "imagini/airport-1.svg",
+      "intrebare": "The angry passenger is ______ her dissatisfaction with the airline.",
+      "variante": [
+        "registering",
+        "enrolling",
+        "signing",
+        "listing"
+      ],
+      "corect": 0,
+      "explicatie": "register your dissatisfaction = officially complain (formal)."
+    },
+    {
+      "id": "ps-c1-airport-2",
+      "scena": "airport",
+      "imagine": "imagini/airport-1.svg",
+      "intrebare": "Tempers ______ as one flight after another was delayed.",
+      "variante": [
+        "flared",
+        "burned",
+        "fired",
+        "lit"
+      ],
+      "corect": 0,
+      "explicatie": "tempers flare = people suddenly become angry."
+    },
+    {
+      "id": "ps-c1-airport-3",
+      "scena": "airport",
+      "imagine": "imagini/airport-1.svg",
+      "intrebare": "The passenger is seeking ______ that she will get a seat on the next flight.",
+      "variante": [
+        "assurances",
+        "insurances",
+        "ensurances",
+        "securities"
+      ],
+      "corect": 0,
+      "explicatie": "seek assurances = ask for a promise that something will happen."
+    },
+    {
+      "id": "ps-c1-airport-4",
+      "scena": "airport",
+      "imagine": "imagini/airport-1.svg",
+      "intrebare": "The cancellation ______ the young man's hopes of a quick trip home.",
+      "variante": [
+        "dashed",
+        "dished",
+        "splashed",
+        "crashed"
+      ],
+      "corect": 0,
+      "explicatie": "dash someone's hopes = destroy them."
+    },
+    {
+      "id": "ps-c1-airport-5",
+      "scena": "airport",
+      "imagine": "imagini/airport-2.svg",
+      "intrebare": "The exhausted traveller has dozed off after a night of ______ awake worrying about the trip.",
+      "variante": [
+        "lying",
+        "laying",
+        "lain",
+        "lied"
+      ],
+      "corect": 0,
+      "explicatie": "lie awake = stay in bed without being able to sleep. lie → lying (intransitive); lay → laying (needs an object)."
+    },
+    {
+      "id": "ps-c1-airport-6",
+      "scena": "airport",
+      "imagine": "imagini/airport-2.svg",
+      "intrebare": "Arriving at the gate at 11:59 for a 12:00 departure is really ______.",
+      "variante": [
+        "cutting it fine",
+        "cutting it sharp",
+        "cutting it neat",
+        "cutting it narrow"
+      ],
+      "corect": 0,
+      "explicatie": "Idiom: cut it fine = leave yourself very little time to do something."
+    },
+    {
+      "id": "ps-c1-airport-7",
+      "scena": "airport",
+      "imagine": "imagini/airport-2.svg",
+      "intrebare": "Racing through the terminal with a heavy suitcase, she's pushing herself to the ______.",
+      "variante": [
+        "limit",
+        "edge",
+        "end",
+        "top"
+      ],
+      "corect": 0,
+      "explicatie": "push yourself to the limit = make the greatest possible effort."
+    },
+    {
+      "id": "ps-c1-airport-8",
+      "scena": "airport",
+      "imagine": "imagini/airport-2.svg",
+      "intrebare": "When she lands, she'll text her family to say she has arrived ______.",
+      "variante": [
+        "safe and sound",
+        "sound and safe",
+        "safely and soundly",
+        "safe and safe"
+      ],
+      "corect": 0,
+      "explicatie": "Fixed phrase: safe and sound = unharmed. The word order never changes."
+    },
+    {
+      "id": "ps-c1-exam-1",
+      "scena": "exam",
+      "imagine": "imagini/exam-1.svg",
+      "intrebare": "When he read the first question, he ______ a blank.",
+      "variante": [
+        "drew",
+        "made",
+        "took",
+        "pulled"
+      ],
+      "corect": 0,
+      "explicatie": "draw a blank = be unable to remember or think of something."
+    },
+    {
+      "id": "ps-c1-exam-2",
+      "scena": "exam",
+      "imagine": "imagini/exam-1.svg",
+      "intrebare": "He has been struggling under a ______ workload all term.",
+      "variante": [
+        "heavy",
+        "thick",
+        "fat",
+        "dense"
+      ],
+      "corect": 0,
+      "explicatie": "a heavy workload = a lot of work to do."
+    },
+    {
+      "id": "ps-c1-exam-3",
+      "scena": "exam",
+      "imagine": "imagini/exam-1.svg",
+      "intrebare": "He studied the formula, but now it has completely ______ his mind.",
+      "variante": [
+        "slipped",
+        "skipped",
+        "slid",
+        "tripped"
+      ],
+      "corect": 0,
+      "explicatie": "slip your mind = be forgotten."
+    },
+    {
+      "id": "ps-c1-exam-4",
+      "scena": "exam",
+      "imagine": "imagini/exam-1.svg",
+      "intrebare": "His heart was ______ as he turned over the exam paper.",
+      "variante": [
+        "pounding",
+        "knocking",
+        "tapping",
+        "ringing"
+      ],
+      "corect": 0,
+      "explicatie": "your heart pounds = it beats very fast and strongly, because of fear or excitement."
+    },
+    {
+      "id": "ps-c1-exam-5",
+      "scena": "exam",
+      "imagine": "imagini/exam-2.svg",
+      "intrebare": "He is ______ delighted with his result.",
+      "variante": [
+        "absolutely",
+        "very",
+        "slightly",
+        "fairly"
+      ],
+      "corect": 0,
+      "explicatie": "'Delighted' is a strong adjective, so it collocates with 'absolutely', not with 'very'."
+    },
+    {
+      "id": "ps-c1-exam-6",
+      "scena": "exam",
+      "imagine": "imagini/exam-2.svg",
+      "intrebare": "All his hard work has clearly ______ results.",
+      "variante": [
+        "produced",
+        "done",
+        "built",
+        "grown"
+      ],
+      "corect": 0,
+      "explicatie": "produce results = have a successful effect."
+    },
+    {
+      "id": "ps-c1-exam-7",
+      "scena": "exam",
+      "imagine": "imagini/exam-2.svg",
+      "intrebare": "He's been walking on ______ ever since he saw his mark.",
+      "variante": [
+        "air",
+        "clouds",
+        "water",
+        "sky"
+      ],
+      "corect": 0,
+      "explicatie": "Idiom: walk on air = feel extremely happy."
+    },
+    {
+      "id": "ps-c1-exam-8",
+      "scena": "exam",
+      "imagine": "imagini/exam-2.svg",
+      "intrebare": "Seeing his success, the girl ______ him a compliment.",
+      "variante": [
+        "paid",
+        "spent",
+        "bought",
+        "lent"
+      ],
+      "corect": 0,
+      "explicatie": "pay someone a compliment = say something nice about them."
+    },
+    {
+      "id": "ps-c1-walk-1",
+      "scena": "walk",
+      "imagine": "imagini/walk-1.svg",
+      "intrebare": "The hikers are walking through ______ hills, far from the city.",
+      "variante": [
+        "rolling",
+        "rolled",
+        "turning",
+        "waving"
+      ],
+      "corect": 0,
+      "explicatie": "rolling hills = gentle hills that rise and fall like waves."
+    },
+    {
+      "id": "ps-c1-walk-2",
+      "scena": "walk",
+      "imagine": "imagini/walk-1.svg",
+      "intrebare": "The little village lies in the ______ of the countryside.",
+      "variante": [
+        "heart",
+        "chest",
+        "soul",
+        "core"
+      ],
+      "corect": 0,
+      "explicatie": "in the heart of the countryside = deep in the countryside, far from towns."
+    },
+    {
+      "id": "ps-c1-walk-3",
+      "scena": "walk",
+      "imagine": "imagini/walk-1.svg",
+      "intrebare": "Long walks in nature help the bearded man ______ inspiration for his paintings.",
+      "variante": [
+        "find",
+        "catch",
+        "win",
+        "earn"
+      ],
+      "corect": 0,
+      "explicatie": "find inspiration = get new ideas."
+    },
+    {
+      "id": "ps-c1-walk-4",
+      "scena": "walk",
+      "imagine": "imagini/walk-1.svg",
+      "intrebare": "Both friends clearly have a strong ______ of adventure.",
+      "variante": [
+        "sense",
+        "touch",
+        "mind",
+        "view"
+      ],
+      "corect": 0,
+      "explicatie": "a sense of adventure = a love of new and exciting experiences."
+    },
+    {
+      "id": "ps-c1-walk-5",
+      "scena": "walk",
+      "imagine": "imagini/walk-2.svg",
+      "intrebare": "It's ______ cold and the woman is shivering.",
+      "variante": [
+        "bitterly",
+        "sourly",
+        "sharply",
+        "heavily"
+      ],
+      "corect": 0,
+      "explicatie": "bitterly cold = extremely cold."
+    },
+    {
+      "id": "ps-c1-walk-6",
+      "scena": "walk",
+      "imagine": "imagini/walk-2.svg",
+      "intrebare": "The storm came completely out of the ______: nobody expected it.",
+      "variante": [
+        "blue",
+        "grey",
+        "sky",
+        "clouds"
+      ],
+      "corect": 0,
+      "explicatie": "Idiom: out of the blue = suddenly and unexpectedly."
+    },
+    {
+      "id": "ps-c1-walk-7",
+      "scena": "walk",
+      "imagine": "imagini/walk-2.svg",
+      "intrebare": "Still, every cloud has a silver ______: at least the fields will be green.",
+      "variante": [
+        "lining",
+        "edge",
+        "coating",
+        "border"
+      ],
+      "corect": 0,
+      "explicatie": "Idiom: every cloud has a silver lining = something good comes even from a bad situation."
+    },
+    {
+      "id": "ps-c1-walk-8",
+      "scena": "walk",
+      "imagine": "imagini/walk-2.svg",
+      "intrebare": "After a day in the cold rain, the man went ______ with flu.",
+      "variante": [
+        "down",
+        "under",
+        "off",
+        "out"
+      ],
+      "corect": 0,
+      "explicatie": "go down with flu = become ill with flu."
+    },
+    {
+      "id": "ps-c1-dinner-1",
+      "scena": "dinner",
+      "imagine": "imagini/dinner-1.svg",
+      "intrebare": "The noise of the alarm is so terrible that the boy is about to throw a ______.",
+      "variante": [
+        "tantrum",
+        "tension",
+        "temper",
+        "trauma"
+      ],
+      "corect": 0,
+      "explicatie": "throw a tantrum = suddenly behave angrily and noisily, like a small child. (We 'lose our temper'; we don't 'throw' it.)"
+    },
+    {
+      "id": "ps-c1-dinner-2",
+      "scena": "dinner",
+      "imagine": "imagini/dinner-1.svg",
+      "intrebare": "The dad's plan for an impressive dinner literally went up in ______.",
+      "variante": [
+        "smoke",
+        "steam",
+        "air",
+        "dust"
+      ],
+      "corect": 0,
+      "explicatie": "Idiom: go up in smoke = fail completely. Here it is also literally true!"
+    },
+    {
+      "id": "ps-c1-dinner-3",
+      "scena": "dinner",
+      "imagine": "imagini/dinner-1.svg",
+      "intrebare": "When the smoke alarm went off, the dad's ______ sank.",
+      "variante": [
+        "heart",
+        "head",
+        "foot",
+        "hand"
+      ],
+      "corect": 0,
+      "explicatie": "your heart sinks = you suddenly feel disappointed or worried."
+    },
+    {
+      "id": "ps-c1-dinner-4",
+      "scena": "dinner",
+      "imagine": "imagini/dinner-1.svg",
+      "intrebare": "He had been ______ with the idea of cooking a big family dinner for weeks.",
+      "variante": [
+        "toying",
+        "gaming",
+        "joking",
+        "fiddling"
+      ],
+      "corect": 0,
+      "explicatie": "toy with an idea = think about it, but not very seriously."
+    },
+    {
+      "id": "ps-c1-dinner-5",
+      "scena": "dinner",
+      "imagine": "imagini/dinner-2.svg",
+      "intrebare": "The meat is so ______ that it almost melts in your mouth.",
+      "variante": [
+        "tender",
+        "gentle",
+        "mild",
+        "kind"
+      ],
+      "corect": 0,
+      "explicatie": "tender meat = soft and easy to cut and eat."
+    },
+    {
+      "id": "ps-c1-dinner-6",
+      "scena": "dinner",
+      "imagine": "imagini/dinner-2.svg",
+      "intrebare": "The salads are made with ______ sourced vegetables from a nearby farm.",
+      "variante": [
+        "locally",
+        "local",
+        "locale",
+        "locality"
+      ],
+      "corect": 0,
+      "explicatie": "locally sourced = produced near where it is sold or eaten. An adverb is needed before the participle 'sourced'."
+    },
+    {
+      "id": "ps-c1-dinner-7",
+      "scena": "dinner",
+      "imagine": "imagini/dinner-2.svg",
+      "intrebare": "Next year they want to invite more relatives, not just their ______ family.",
+      "variante": [
+        "immediate",
+        "instant",
+        "direct",
+        "prompt"
+      ],
+      "corect": 0,
+      "explicatie": "immediate family = your closest relatives: parents, children, brothers and sisters."
+    },
+    {
+      "id": "ps-c1-dinner-8",
+      "scena": "dinner",
+      "imagine": "imagini/dinner-2.svg",
+      "intrebare": "Mum and Dad are raising their glasses to ______ a toast.",
+      "variante": [
+        "propose",
+        "suggest",
+        "launch",
+        "pose"
+      ],
+      "corect": 0,
+      "explicatie": "propose a toast = ask everyone to drink to someone or something."
+    }
+  ]
+}

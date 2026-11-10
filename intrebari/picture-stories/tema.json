@@ -1,0 +1,133 @@
+{
+  "titlu": "Picture Stories",
+  "descriere": "Collocations, phrases and idioms to describe pictures",
+  "ordine": 5,
+  "grupatPeScene": true,
+  "scene": {
+    "cafe": {
+      "titlu": "At the café",
+      "limbaj": {
+        "B2": [
+          "catch up with friends",
+          "have a cosy chat",
+          "a piece of gossip",
+          "a relaxed atmosphere",
+          "grab a bite (to eat)",
+          "burst out laughing",
+          "Here you are!",
+          "spill the beans"
+        ],
+        "C1": [
+          "juicy gossip",
+          "You'll never guess what happened!",
+          "a lull in the conversation",
+          "freshly prepared",
+          "exchange greetings",
+          "have someone in stitches",
+          "an outgoing personality",
+          "It's my treat!"
+        ]
+      }
+    },
+    "airport": {
+      "titlu": "A delayed flight",
+      "limbaj": {
+        "B2": [
+          "come as a shock",
+          "kick up a fuss",
+          "sick and tired of",
+          "worried / worrying",
+          "catch up on some sleep",
+          "break into a run",
+          "in the nick of time",
+          "at the last minute"
+        ],
+        "C1": [
+          "register your dissatisfaction",
+          "tempers flare",
+          "seek assurances",
+          "dash someone's hopes",
+          "lie awake",
+          "cut it fine",
+          "push yourself to the limit",
+          "safe and sound"
+        ]
+      }
+    },
+    "exam": {
+      "titlu": "The big exam",
+      "limbaj": {
+        "B2": [
+          "your mind goes blank",
+          "rack your brains",
+          "a bundle of nerves",
+          "on the tip of your tongue",
+          "learn something by heart",
+          "pass with flying colours",
+          "thrilled to bits",
+          "Well done!"
+        ],
+        "C1": [
+          "draw a blank",
+          "a heavy workload",
+          "slip your mind",
+          "your heart pounds",
+          "absolutely delighted",
+          "produce results",
+          "walk on air",
+          "pay someone a compliment"
+        ]
+      }
+    },
+    "walk": {
+      "titlu": "A walk in the countryside",
+      "limbaj": {
+        "B2": [
+          "go for a brisk walk",
+          "breathtaking scenery",
+          "a picturesque village",
+          "winding lanes",
+          "raining cats and dogs",
+          "torrential rain",
+          "soaked to the skin",
+          "inside out"
+        ],
+        "C1": [
+          "rolling hills",
+          "in the heart of the countryside",
+          "find inspiration",
+          "a sense of adventure",
+          "bitterly cold",
+          "out of the blue",
+          "every cloud has a silver lining",
+          "go down with flu"
+        ]
+      }
+    },
+    "dinner": {
+      "titlu": "Family dinner",
+      "limbaj": {
+        "B2": [
+          "set off a smoke alarm",
+          "cook from scratch",
+          "cover your ears",
+          "a recipe for disaster",
+          "a close-knit family",
+          "Help yourselves!",
+          "have someone over for dinner",
+          "thoroughly enjoy"
+        ],
+        "C1": [
+          "throw a tantrum",
+          "go up in smoke",
+          "your heart sinks",
+          "toy with an idea",
+          "tender meat",
+          "locally sourced",
+          "immediate family",
+          "propose a toast"
+        ]
+      }
+    }
+  }
+}

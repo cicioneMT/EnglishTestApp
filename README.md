@@ -52,6 +52,7 @@ Pe calculator, dacă aveți Node.js instalat, actualizați lista cu: `node tools
 - `corect` este poziția variantei corecte: 0 = prima, 1 = a doua etc. Aplicația amestecă oricum variantele.
 - `______` (minim 3 liniuțe) apare ca spațiu de completat.
 - Pentru întrebări cu desen, adăugați `"imagine": "imagini/numele-desenului.svg"`.
+- Pentru teme cu scene (ca *Picture Stories*), adăugați `"scena": "cafe"`. În `tema.json` puneți `"grupatPeScene": true` și lista `"scene"` cu titlul și expresiile „Useful language” pe niveluri. În modul Învățare, întrebările aceleiași scene apar împreună, iar la final elevul vede lista de expresii.
 - **Nu schimbați `id`-ul unei întrebări existente.** După el sunt verificate rapoartele vechi.
 
 ## Înainte de a da linkul elevilor

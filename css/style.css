@@ -209,6 +209,13 @@ form .btn-principal { width: 100%; margin-top: 6px; }
 .feedback.gresit .feedback-titlu { color: var(--gresit); }
 .feedback-expl { font-size: .95rem; }
 .scor-cerc-verde { background: var(--corect); }
+.eticheta-scena { margin: 12px 0 0; font-size: .85rem; font-weight: 700; color: var(--navy); text-transform: uppercase; letter-spacing: .05em; }
+#ecran-invatare .imagine-intrebare { margin-top: 10px; }
+.useful { margin-top: 14px; padding: 16px 18px; border-radius: 12px; background: #eef3fa; border: 1.5px dashed var(--navy-2); }
+.useful-titlu { margin: 0; font-weight: 700; color: var(--navy); font-size: 1.05rem; }
+.useful-sub { margin: 2px 0 10px; font-size: .88rem; color: var(--gri); }
+.useful ul { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.useful li { background: #fff; border: 1px solid #c9d5e6; border-radius: 999px; padding: 4px 12px; font-size: .92rem; font-weight: 600; color: var(--navy); }
 .actiuni-invatare { display: grid; gap: 10px; }
 .actiuni-invatare .btn-link { justify-self: start; }
 

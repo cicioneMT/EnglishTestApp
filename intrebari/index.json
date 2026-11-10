@@ -36,6 +36,16 @@
       "niveluri": [
         "toate"
       ]
+    },
+    {
+      "id": "picture-stories",
+      "titlu": "Picture Stories",
+      "descriere": "Collocations, phrases and idioms to describe pictures",
+      "ordine": 5,
+      "niveluri": [
+        "B2",
+        "C1"
+      ]
     }
   ]
 }

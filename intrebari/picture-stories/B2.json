@@ -1,0 +1,564 @@
+{
+  "intrebari": [
+    {
+      "id": "ps-b2-cafe-1",
+      "scena": "cafe",
+      "imagine": "imagini/cafe-1.svg",
+      "intrebare": "The two friends haven't seen each other for months, so they are meeting to ______.",
+      "variante": [
+        "catch up",
+        "catch on",
+        "keep up",
+        "make up"
+      ],
+      "corect": 0,
+      "explicatie": "catch up (with friends) = talk about everything that has happened since you last met. 'Make up' means to become friends again after an argument."
+    },
+    {
+      "id": "ps-b2-cafe-2",
+      "scena": "cafe",
+      "imagine": "imagini/cafe-1.svg",
+      "intrebare": "They are having a ______ chat over coffee and cake.",
+      "variante": [
+        "cosy",
+        "heavy",
+        "strong",
+        "thick"
+      ],
+      "corect": 0,
+      "explicatie": "A cosy chat is a relaxed, friendly conversation."
+    },
+    {
+      "id": "ps-b2-cafe-3",
+      "scena": "cafe",
+      "imagine": "imagini/cafe-1.svg",
+      "intrebare": "'You'll never guess what happened!' The woman is about to share a ______ of gossip.",
+      "variante": [
+        "piece",
+        "slice",
+        "drop",
+        "sheet"
+      ],
+      "corect": 0,
+      "explicatie": "We say 'a piece of gossip', in the same way as 'a piece of news' or 'a piece of advice'."
+    },
+    {
+      "id": "ps-b2-cafe-4",
+      "scena": "cafe",
+      "imagine": "imagini/cafe-1.svg",
+      "intrebare": "There's a ______ atmosphere in the café: soft lights, quiet music, and nobody is in a hurry.",
+      "variante": [
+        "relaxed",
+        "loose",
+        "calmed",
+        "rested"
+      ],
+      "corect": 0,
+      "explicatie": "A relaxed atmosphere is calm and informal."
+    },
+    {
+      "id": "ps-b2-cafe-5",
+      "scena": "cafe",
+      "imagine": "imagini/cafe-1.svg",
+      "intrebare": "Neither of them had time for lunch, so they decided to ______ a bite at the café.",
+      "variante": [
+        "grab",
+        "catch",
+        "pull",
+        "hold"
+      ],
+      "corect": 0,
+      "explicatie": "grab a bite (to eat) = eat something quickly. It is informal."
+    },
+    {
+      "id": "ps-b2-cafe-6",
+      "scena": "cafe",
+      "imagine": "imagini/cafe-2.svg",
+      "intrebare": "When the woman finished her story, they both ______ laughing.",
+      "variante": [
+        "burst out",
+        "broke out",
+        "blew out",
+        "burst into"
+      ],
+      "corect": 0,
+      "explicatie": "burst out laughing = suddenly start laughing. Be careful: 'burst into laughter', but 'burst out laughing'."
+    },
+    {
+      "id": "ps-b2-cafe-7",
+      "scena": "cafe",
+      "imagine": "imagini/cafe-2.svg",
+      "intrebare": "The waiter says 'Here you are!' when he ______.",
+      "variante": [
+        "gives the customers something",
+        "greets new customers",
+        "says goodbye",
+        "takes their order"
+      ],
+      "corect": 0,
+      "explicatie": "'Here you are' is a fixed phrase we use when we hand something to someone."
+    },
+    {
+      "id": "ps-b2-cafe-8",
+      "scena": "cafe",
+      "imagine": "imagini/cafe-2.svg",
+      "intrebare": "The woman finally told her friend the secret she had been keeping. In other words, she ______.",
+      "variante": [
+        "spilled the beans",
+        "spilled the milk",
+        "broke the ice",
+        "let the cat sleep"
+      ],
+      "corect": 0,
+      "explicatie": "Idiom: spill the beans = reveal a secret. 'Break the ice' means to make people feel relaxed when they first meet."
+    },
+    {
+      "id": "ps-b2-airport-1",
+      "scena": "airport",
+      "imagine": "imagini/airport-1.svg",
+      "intrebare": "The news that his flight was cancelled came as a ______ to the young man.",
+      "variante": [
+        "shock",
+        "fright",
+        "scare",
+        "panic"
+      ],
+      "corect": 0,
+      "explicatie": "come as a shock = be very surprising and upsetting. Look at his face!"
+    },
+    {
+      "id": "ps-b2-airport-2",
+      "scena": "airport",
+      "imagine": "imagini/airport-1.svg",
+      "intrebare": "The woman at the check-in desk is ______ a fuss.",
+      "variante": [
+        "kicking up",
+        "kicking out",
+        "picking up",
+        "throwing out"
+      ],
+      "corect": 0,
+      "explicatie": "kick up a fuss = complain loudly and angrily."
+    },
+    {
+      "id": "ps-b2-airport-3",
+      "scena": "airport",
+      "imagine": "imagini/airport-1.svg",
+      "intrebare": "She is ______ tired of waiting for hours at the airport.",
+      "variante": [
+        "sick and",
+        "ill and",
+        "sick or",
+        "tired and"
+      ],
+      "corect": 0,
+      "explicatie": "Fixed pair: sick and tired of something = very annoyed and bored with it."
+    },
+    {
+      "id": "ps-b2-airport-4",
+      "scena": "airport",
+      "imagine": "imagini/airport-1.svg",
+      "intrebare": "The member of staff behind the desk looks ______.",
+      "variante": [
+        "worried",
+        "worrying",
+        "worry",
+        "worriedly"
+      ],
+      "corect": 0,
+      "explicatie": "-ed adjectives describe how a person feels: she is worried. Something that makes you feel that way is worrying."
+    },
+    {
+      "id": "ps-b2-airport-5",
+      "scena": "airport",
+      "imagine": "imagini/airport-2.svg",
+      "intrebare": "The young man on the chairs is using the delay to catch up on some ______.",
+      "variante": [
+        "sleep",
+        "bed",
+        "dreams",
+        "pillow"
+      ],
+      "corect": 0,
+      "explicatie": "catch up on some sleep = sleep to make up for the sleep you missed."
+    },
+    {
+      "id": "ps-b2-airport-6",
+      "scena": "airport",
+      "imagine": "imagini/airport-2.svg",
+      "intrebare": "The woman ______ a run when she heard the last call.",
+      "variante": [
+        "broke into",
+        "broke out",
+        "broke up",
+        "broke down"
+      ],
+      "corect": 0,
+      "explicatie": "break into a run = suddenly start running."
+    },
+    {
+      "id": "ps-b2-airport-7",
+      "scena": "airport",
+      "imagine": "imagini/airport-2.svg",
+      "intrebare": "She reached the gate in the ______ of time.",
+      "variante": [
+        "nick",
+        "neck",
+        "knock",
+        "niche"
+      ],
+      "corect": 0,
+      "explicatie": "Idiom: in the nick of time = at the very last moment, just before it is too late."
+    },
+    {
+      "id": "ps-b2-airport-8",
+      "scena": "airport",
+      "imagine": "imagini/airport-2.svg",
+      "intrebare": "Her flight leaves at 12:00 and it's 11:59 — she always does everything at the last ______!",
+      "variante": [
+        "minute",
+        "clock",
+        "time",
+        "point"
+      ],
+      "corect": 0,
+      "explicatie": "Fixed phrase: at the last minute = as late as possible."
+    },
+    {
+      "id": "ps-b2-exam-1",
+      "scena": "exam",
+      "imagine": "imagini/exam-1.svg",
+      "intrebare": "The student can't remember anything — his mind has gone ______.",
+      "variante": [
+        "blank",
+        "empty",
+        "white",
+        "clear"
+      ],
+      "corect": 0,
+      "explicatie": "your mind goes blank = you suddenly cannot remember or think of anything."
+    },
+    {
+      "id": "ps-b2-exam-2",
+      "scena": "exam",
+      "imagine": "imagini/exam-1.svg",
+      "intrebare": "He is ______ his brains, trying to remember the answer.",
+      "variante": [
+        "racking",
+        "breaking",
+        "shaking",
+        "cracking"
+      ],
+      "corect": 0,
+      "explicatie": "rack your brains = think very hard to remember something or to solve a problem."
+    },
+    {
+      "id": "ps-b2-exam-3",
+      "scena": "exam",
+      "imagine": "imagini/exam-1.svg",
+      "intrebare": "He is extremely nervous. In fact, he's a ______ of nerves.",
+      "variante": [
+        "bundle",
+        "packet",
+        "box",
+        "pile"
+      ],
+      "corect": 0,
+      "explicatie": "a bundle of nerves = a very nervous person."
+    },
+    {
+      "id": "ps-b2-exam-4",
+      "scena": "exam",
+      "imagine": "imagini/exam-1.svg",
+      "intrebare": "The answer is on the ______ of his tongue, but he just can't remember it.",
+      "variante": [
+        "tip",
+        "top",
+        "end",
+        "edge"
+      ],
+      "corect": 0,
+      "explicatie": "Idiom: on the tip of your tongue = you know it, but you can't remember it at that moment."
+    },
+    {
+      "id": "ps-b2-exam-5",
+      "scena": "exam",
+      "imagine": "imagini/exam-1.svg",
+      "intrebare": "He really should have learned the important dates ______ heart.",
+      "variante": [
+        "by",
+        "from",
+        "with",
+        "in"
+      ],
+      "corect": 0,
+      "explicatie": "Fixed phrase: learn something by heart = memorise it perfectly."
+    },
+    {
+      "id": "ps-b2-exam-6",
+      "scena": "exam",
+      "imagine": "imagini/exam-2.svg",
+      "intrebare": "Good news! The student has ______ the exam with flying colours.",
+      "variante": [
+        "passed",
+        "past",
+        "won",
+        "gained"
+      ],
+      "corect": 0,
+      "explicatie": "Idiom: pass with flying colours = pass very successfully. 'Past' is not a verb."
+    },
+    {
+      "id": "ps-b2-exam-7",
+      "scena": "exam",
+      "imagine": "imagini/exam-2.svg",
+      "intrebare": "He is thrilled to ______ with his result.",
+      "variante": [
+        "bits",
+        "pieces",
+        "parts",
+        "crumbs"
+      ],
+      "corect": 0,
+      "explicatie": "thrilled to bits = extremely pleased (informal)."
+    },
+    {
+      "id": "ps-b2-exam-8",
+      "scena": "exam",
+      "imagine": "imagini/exam-2.svg",
+      "intrebare": "His friend says 'Well done!' to ______ him.",
+      "variante": [
+        "congratulate",
+        "complain to",
+        "apologise to",
+        "warn"
+      ],
+      "corect": 0,
+      "explicatie": "'Well done!' is the fixed phrase we use to congratulate someone."
+    },
+    {
+      "id": "ps-b2-walk-1",
+      "scena": "walk",
+      "imagine": "imagini/walk-1.svg",
+      "intrebare": "The friends are going for a ______ walk to get some fresh air and exercise.",
+      "variante": [
+        "brisk",
+        "sharp",
+        "fresh",
+        "bright"
+      ],
+      "corect": 0,
+      "explicatie": "A brisk walk is a quick, energetic walk."
+    },
+    {
+      "id": "ps-b2-walk-2",
+      "scena": "walk",
+      "imagine": "imagini/walk-1.svg",
+      "intrebare": "The view from the hill is ______ — the man can't stop admiring it.",
+      "variante": [
+        "breathtaking",
+        "breathtaken",
+        "breathless",
+        "breathy"
+      ],
+      "corect": 0,
+      "explicatie": "breathtaking = extremely beautiful. 'Breathless' means out of breath."
+    },
+    {
+      "id": "ps-b2-walk-3",
+      "scena": "walk",
+      "imagine": "imagini/walk-1.svg",
+      "intrebare": "In the distance there is a ______ village with an old church.",
+      "variante": [
+        "picturesque",
+        "picture",
+        "pictorial",
+        "pictured"
+      ],
+      "corect": 0,
+      "explicatie": "picturesque = pretty, like a picture. A picturesque village is a very common collocation."
+    },
+    {
+      "id": "ps-b2-walk-4",
+      "scena": "walk",
+      "imagine": "imagini/walk-1.svg",
+      "intrebare": "The path follows ______ lanes between the hills.",
+      "variante": [
+        "winding",
+        "wounding",
+        "winded",
+        "winder"
+      ],
+      "corect": 0,
+      "explicatie": "winding lanes = narrow roads with many bends. ('Wounding' comes from 'wound', an injury.)"
+    },
+    {
+      "id": "ps-b2-walk-5",
+      "scena": "walk",
+      "imagine": "imagini/walk-2.svg",
+      "intrebare": "Suddenly the sky went dark and it started raining cats and ______.",
+      "variante": [
+        "dogs",
+        "mice",
+        "birds",
+        "horses"
+      ],
+      "corect": 0,
+      "explicatie": "Idiom: it's raining cats and dogs = it's raining very heavily."
+    },
+    {
+      "id": "ps-b2-walk-6",
+      "scena": "walk",
+      "imagine": "imagini/walk-2.svg",
+      "intrebare": "The two hikers got caught in ______ rain.",
+      "variante": [
+        "torrential",
+        "torrent",
+        "torrentially",
+        "torrid"
+      ],
+      "corect": 0,
+      "explicatie": "torrential rain = very heavy rain. We need an adjective before the noun."
+    },
+    {
+      "id": "ps-b2-walk-7",
+      "scena": "walk",
+      "imagine": "imagini/walk-2.svg",
+      "intrebare": "They are completely wet — they are soaked to the ______.",
+      "variante": [
+        "skin",
+        "feet",
+        "heart",
+        "shirt"
+      ],
+      "corect": 0,
+      "explicatie": "Fixed phrase: soaked to the skin = completely wet."
+    },
+    {
+      "id": "ps-b2-walk-8",
+      "scena": "walk",
+      "imagine": "imagini/walk-2.svg",
+      "intrebare": "The strong wind has turned the man's umbrella inside ______.",
+      "variante": [
+        "out",
+        "in",
+        "over",
+        "down"
+      ],
+      "corect": 0,
+      "explicatie": "inside out = with the inside part turned to the outside."
+    },
+    {
+      "id": "ps-b2-dinner-1",
+      "scena": "dinner",
+      "imagine": "imagini/dinner-1.svg",
+      "intrebare": "The dad burnt the food and ______ off the smoke alarm.",
+      "variante": [
+        "set",
+        "put",
+        "turned",
+        "took"
+      ],
+      "corect": 0,
+      "explicatie": "set off a smoke alarm = make it start ringing."
+    },
+    {
+      "id": "ps-b2-dinner-2",
+      "scena": "dinner",
+      "imagine": "imagini/dinner-1.svg",
+      "intrebare": "He wanted to cook everything from ______ instead of buying a ready meal.",
+      "variante": [
+        "scratch",
+        "start",
+        "zero",
+        "beginning"
+      ],
+      "corect": 0,
+      "explicatie": "cook from scratch = cook using basic ingredients, not ready-made food."
+    },
+    {
+      "id": "ps-b2-dinner-3",
+      "scena": "dinner",
+      "imagine": "imagini/dinner-1.svg",
+      "intrebare": "The boy is covering his ears because the alarm is so ______.",
+      "variante": [
+        "loud",
+        "loudly",
+        "loudness",
+        "aloud"
+      ],
+      "corect": 0,
+      "explicatie": "After 'is so' we need an adjective: loud."
+    },
+    {
+      "id": "ps-b2-dinner-4",
+      "scena": "dinner",
+      "imagine": "imagini/dinner-1.svg",
+      "intrebare": "Cooking a big dinner with no experience was a ______ for disaster.",
+      "variante": [
+        "recipe",
+        "receipt",
+        "menu",
+        "dish"
+      ],
+      "corect": 0,
+      "explicatie": "Idiom: a recipe for disaster = something that is very likely to go wrong. Careful: a receipt is the paper you get in a shop!"
+    },
+    {
+      "id": "ps-b2-dinner-5",
+      "scena": "dinner",
+      "imagine": "imagini/dinner-2.svg",
+      "intrebare": "This is a ______ family: they are very close and love spending time together.",
+      "variante": [
+        "close-knit",
+        "close-tied",
+        "tight-sewn",
+        "near-knit"
+      ],
+      "corect": 0,
+      "explicatie": "close-knit family = a family whose members support each other and are very close."
+    },
+    {
+      "id": "ps-b2-dinner-6",
+      "scena": "dinner",
+      "imagine": "imagini/dinner-2.svg",
+      "intrebare": "Grandma says 'Help ______!' to invite everyone to take some food.",
+      "variante": [
+        "yourselves",
+        "you",
+        "yourself's",
+        "themselves"
+      ],
+      "corect": 0,
+      "explicatie": "Fixed phrase: Help yourself / Help yourselves (when you speak to more than one person) = take as much food as you want."
+    },
+    {
+      "id": "ps-b2-dinner-7",
+      "scena": "dinner",
+      "imagine": "imagini/dinner-2.svg",
+      "intrebare": "This weekend they are ______ the grandparents over for dinner.",
+      "variante": [
+        "having",
+        "getting",
+        "making",
+        "doing"
+      ],
+      "corect": 0,
+      "explicatie": "have someone over for dinner = invite someone to your home for a meal."
+    },
+    {
+      "id": "ps-b2-dinner-8",
+      "scena": "dinner",
+      "imagine": "imagini/dinner-2.svg",
+      "intrebare": "Everyone is ______ enjoying the meal.",
+      "variante": [
+        "thoroughly",
+        "throughly",
+        "thoroughful",
+        "though"
+      ],
+      "corect": 0,
+      "explicatie": "thoroughly enjoy = enjoy very much. Watch the spelling: t-h-o-r-o-u-g-h-l-y."
+    }
+  ]
+}
